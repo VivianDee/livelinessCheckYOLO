@@ -16,7 +16,5 @@ imutils==0.5.4
 # Logging (Python Standard Library, for reference)
 
 # Asynchronous Support
-eventlet==0.33.3  # Used by Flask-SocketIO for async (alternative to gevent)
+eventlet==0.33.3 
 
-# Optional: Development and Debugging Tools
-gunicorn==21.1.0  # Production WSGI server (if used)

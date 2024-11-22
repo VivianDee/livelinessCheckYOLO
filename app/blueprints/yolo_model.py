@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 
 class YOLOModel:
-    model = YOLO("models/l_version_1_300.pt").to("cpu")
+    model = YOLO("models/l_version_1_300.pt").to("cuda")
 
     @staticmethod
     def detect(frame):
