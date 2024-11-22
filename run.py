@@ -7,9 +7,7 @@ import time
 app = create_app()
 
 if __name__ == "__main__":
-    # Run the SocketIO server
-    socketio.run(app, host="0.0.0.0", port=5000, debug=True)
- 
+
 
     ngrok.set_auth_token("2pBTiurjJeNA5XPr04weW17H3p0_CMRmX8y4U8pokWK79vfa") 
 
@@ -17,6 +15,11 @@ if __name__ == "__main__":
 
     # Output ngrok URL to console
     print(f"Ingress established at {listener}")
+
+    
+    # Run the SocketIO server
+    socketio.run(app, host="0.0.0.0", port=5000, debug=True)
+
 
     # Keep the listener alive
     try:
