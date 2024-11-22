@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        a {
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <canvas id="canvasOutput"></canvas>
+        <video style="display: none;" autoplay="true" id="videoElement"></video>
+    </div>
+    <div id="status"></div>
+    
+    <div class='video'>
+        <img id="image">
+    </div>
+    <script async src="https://cdn.socket.io/4.6.1/socket.io.min.js"></script>
+    <script async src="https://docs.opencv.org/4.x/opencv.js" onload="onOpenCvReady()"></script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html> 
