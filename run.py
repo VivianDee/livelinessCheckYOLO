@@ -9,13 +9,11 @@ app = create_app()
 if __name__ == "__main__":
     # Run the SocketIO server
     socketio.run(app, host="0.0.0.0", port=5000, debug=True)
+ 
 
-    # Establish ngrok tunnel
-    # You can specify your authtoken directly or set it in your environment variables
-    ngrok.set_auth_token("YOUR_NGROK_AUTH_TOKEN")  # Replace with your actual token
+    ngrok.set_auth_token("2pBTiurjJeNA5XPr04weW17H3p0_CMRmX8y4U8pokWK79vfa") 
 
-    # Forward a port (5000) to the public URL
-    listener = ngrok.connect(5000)  # Change to 9000 if that's what you want
+    listener = ngrok.connect(5000)
 
     # Output ngrok URL to console
     print(f"Ingress established at {listener}")
