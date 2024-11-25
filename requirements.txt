@@ -13,7 +13,6 @@ ultralytics
 torch
 torchvision
 torchaudio
-opencv-python
 
 # Base64 Encoding/Decoding (Python Standard Library, for reference)
 
