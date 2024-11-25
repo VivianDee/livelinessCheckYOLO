@@ -8,13 +8,3 @@ opencv-python-headless==4.8.0.74
 cvzone==1.5.6
 ultralytics==8.0.130
 numpy==1.24.3
-Pillow==10.0.1
-imutils==0.5.4
-
-# Base64 Encoding/Decoding (Python Standard Library, for reference)
-
-# Logging (Python Standard Library, for reference)
-
-# Asynchronous Support
-eventlet==0.33.3 
-

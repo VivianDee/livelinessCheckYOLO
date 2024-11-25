@@ -2737,3 +2737,460 @@ UnboundLocalError: cannot access local variable 'annotated_frame' where it is no
 2024-11-22 01:25:06,053 - ERROR - Cannot identify image file
 2024-11-22 01:25:06,080 - INFO - 127.0.0.1 - - [22/Nov/2024 01:25:06] "[33mGET /undefined HTTP/1.1[0m" 404 -
 2024-11-22 01:25:40,065 - INFO - 192.168.43.85 - - [22/Nov/2024 01:25:40] "GET /socket.io/?EIO=4&transport=websocket&sid=eHQDOVdMOsf0CI-7AAAA HTTP/1.1" 200 -
+2024-11-22 11:39:17,519 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.43.85:5000
+2024-11-22 11:39:17,520 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-22 11:39:17,520 - INFO -  * Restarting with stat
+2024-11-22 11:39:30,136 - WARNING -  * Debugger is active!
+2024-11-22 11:39:30,137 - INFO -  * Debugger PIN: 144-004-194
+2024-11-22 11:40:31,417 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.43.85:5000
+2024-11-22 11:40:31,417 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-22 11:40:31,417 - INFO -  * Restarting with stat
+2024-11-22 11:40:39,899 - WARNING -  * Debugger is active!
+2024-11-22 11:40:39,899 - INFO -  * Debugger PIN: 144-004-194
+2024-11-22 11:44:14,267 - INFO - Rendering the index page.
+2024-11-22 11:44:14,297 - INFO - 127.0.0.1 - - [22/Nov/2024 11:44:14] "GET / HTTP/1.1" 200 -
+2024-11-22 11:44:14,383 - INFO - 127.0.0.1 - - [22/Nov/2024 11:44:14] "GET /static/css/main.css HTTP/1.1" 200 -
+2024-11-22 11:44:14,384 - INFO - 127.0.0.1 - - [22/Nov/2024 11:44:14] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-11-22 11:44:18,002 - INFO - 192.168.43.85 - - [22/Nov/2024 11:44:18] "GET /socket.io/?EIO=4&transport=polling&t=PDJUFl4 HTTP/1.1" 200 -
+2024-11-22 11:44:18,071 - INFO - 192.168.43.85 - - [22/Nov/2024 11:44:18] "POST /socket.io/?EIO=4&transport=polling&t=PDJUFmA&sid=h_RskvBUD1OAS2tSAAAA HTTP/1.1" 200 -
+2024-11-22 11:44:18,097 - INFO - 192.168.43.85 - - [22/Nov/2024 11:44:18] "GET /socket.io/?EIO=4&transport=polling&t=PDJUFmN&sid=h_RskvBUD1OAS2tSAAAA HTTP/1.1" 200 -
+2024-11-22 11:44:18,258 - ERROR - Cannot identify image file
+2024-11-22 11:44:18,259 - ERROR - Cannot identify image file
+2024-11-22 11:44:18,259 - ERROR - Cannot identify image file
+2024-11-22 11:44:18,260 - ERROR - Cannot identify image file
+2024-11-22 11:44:18,261 - ERROR - Cannot identify image file
+2024-11-22 11:44:18,274 - ERROR - Cannot identify image file
+2024-11-22 11:44:18,285 - INFO - 127.0.0.1 - - [22/Nov/2024 11:44:18] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 11:44:18,322 - INFO - 127.0.0.1 - - [22/Nov/2024 11:44:18] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 11:44:18,326 - ERROR - Cannot identify image file
+2024-11-22 11:44:18,365 - ERROR - Cannot identify image file
+2024-11-22 11:44:18,375 - INFO - 127.0.0.1 - - [22/Nov/2024 11:44:18] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 11:44:18,415 - ERROR - Cannot identify image file
+2024-11-22 11:44:18,450 - INFO - 127.0.0.1 - - [22/Nov/2024 11:44:18] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 11:44:18,461 - ERROR - Cannot identify image file
+2024-11-22 11:44:18,497 - INFO - 127.0.0.1 - - [22/Nov/2024 11:44:18] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 11:44:18,508 - ERROR - Cannot identify image file
+2024-11-22 11:44:18,546 - ERROR - Cannot identify image file
+2024-11-22 11:44:18,576 - INFO - 127.0.0.1 - - [22/Nov/2024 11:44:18] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:08:34,959 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.43.85:5000
+2024-11-22 12:08:34,960 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-22 12:08:34,960 - INFO -  * Restarting with stat
+2024-11-22 12:08:54,106 - WARNING -  * Debugger is active!
+2024-11-22 12:08:54,121 - INFO -  * Debugger PIN: 144-004-194
+2024-11-22 12:08:54,447 - INFO - Rendering the index page.
+2024-11-22 12:08:54,512 - INFO - 127.0.0.1 - - [22/Nov/2024 12:08:54] "GET / HTTP/1.1" 200 -
+2024-11-22 12:08:55,608 - INFO - 127.0.0.1 - - [22/Nov/2024 12:08:55] "GET /static/css/main.css HTTP/1.1" 200 -
+2024-11-22 12:08:55,618 - INFO - 127.0.0.1 - - [22/Nov/2024 12:08:55] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-22 12:08:58,298 - INFO - 192.168.43.85 - - [22/Nov/2024 12:08:58] "GET /socket.io/?EIO=4&transport=polling&t=PDJZv8T HTTP/1.1" 200 -
+2024-11-22 12:08:58,537 - INFO - 192.168.43.85 - - [22/Nov/2024 12:08:58] "POST /socket.io/?EIO=4&transport=polling&t=PDJZv9w&sid=4ujqCjC1Pi8IvSNcAAAA HTTP/1.1" 200 -
+2024-11-22 12:08:58,539 - INFO - 192.168.43.85 - - [22/Nov/2024 12:08:58] "GET /socket.io/?EIO=4&transport=polling&t=PDJZvAA&sid=4ujqCjC1Pi8IvSNcAAAA HTTP/1.1" 200 -
+2024-11-22 12:08:58,628 - INFO - 192.168.43.85 - - [22/Nov/2024 12:08:58] "GET /socket.io/?EIO=4&transport=polling&t=PDJZvDb&sid=4ujqCjC1Pi8IvSNcAAAA HTTP/1.1" 200 -
+2024-11-22 12:08:58,672 - INFO - 192.168.43.85 - - [22/Nov/2024 12:08:58] "POST /socket.io/?EIO=4&transport=polling&t=PDJZvDc&sid=4ujqCjC1Pi8IvSNcAAAA HTTP/1.1" 200 -
+2024-11-22 12:08:59,552 - ERROR - Cannot identify image file
+2024-11-22 12:08:59,555 - ERROR - Cannot identify image file
+2024-11-22 12:08:59,578 - ERROR - Cannot identify image file
+2024-11-22 12:08:59,556 - ERROR - Cannot identify image file
+2024-11-22 12:08:59,571 - ERROR - Cannot identify image file
+2024-11-22 12:08:59,560 - ERROR - Cannot identify image file
+2024-11-22 12:08:59,597 - ERROR - Cannot identify image file
+2024-11-22 12:08:59,602 - ERROR - Cannot identify image file
+2024-11-22 12:08:59,639 - ERROR - Cannot identify image file
+2024-11-22 12:08:59,567 - ERROR - Cannot identify image file
+2024-11-22 12:08:59,663 - ERROR - Cannot identify image file
+2024-11-22 12:08:59,556 - ERROR - Cannot identify image file
+2024-11-22 12:08:59,560 - ERROR - Cannot identify image file
+2024-11-22 12:08:59,561 - ERROR - Cannot identify image file
+2024-11-22 12:08:59,564 - ERROR - Cannot identify image file
+2024-11-22 12:08:59,630 - ERROR - Cannot identify image file
+2024-11-22 12:08:59,631 - ERROR - Cannot identify image file
+2024-11-22 12:08:59,633 - ERROR - Cannot identify image file
+2024-11-22 12:08:59,633 - ERROR - Cannot identify image file
+2024-11-22 12:08:59,634 - ERROR - Cannot identify image file
+2024-11-22 12:08:59,634 - ERROR - Cannot identify image file
+2024-11-22 12:08:59,634 - ERROR - Cannot identify image file
+2024-11-22 12:08:59,636 - ERROR - Cannot identify image file
+2024-11-22 12:08:59,568 - ERROR - Cannot identify image file
+2024-11-22 12:08:59,665 - ERROR - Cannot identify image file
+2024-11-22 12:08:59,586 - ERROR - Cannot identify image file
+2024-11-22 12:08:59,666 - ERROR - Cannot identify image file
+2024-11-22 12:08:59,684 - ERROR - Cannot identify image file
+2024-11-22 12:08:59,708 - ERROR - Cannot identify image file
+2024-11-22 12:08:59,767 - ERROR - Cannot identify image file
+2024-11-22 12:08:59,713 - INFO - 127.0.0.1 - - [22/Nov/2024 12:08:59] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:08:59,881 - ERROR - Cannot identify image file
+2024-11-22 12:08:59,884 - INFO - 127.0.0.1 - - [22/Nov/2024 12:08:59] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:08:59,971 - ERROR - Cannot identify image file
+2024-11-22 12:08:59,976 - ERROR - Cannot identify image file
+2024-11-22 12:08:59,984 - INFO - 127.0.0.1 - - [22/Nov/2024 12:08:59] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:09:00,052 - ERROR - Cannot identify image file
+2024-11-22 12:09:00,081 - ERROR - Cannot identify image file
+2024-11-22 12:09:00,142 - ERROR - Cannot identify image file
+2024-11-22 12:09:00,180 - INFO - 127.0.0.1 - - [22/Nov/2024 12:09:00] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:09:00,219 - ERROR - Cannot identify image file
+2024-11-22 12:09:00,268 - ERROR - Cannot identify image file
+2024-11-22 12:09:00,310 - ERROR - Cannot identify image file
+2024-11-22 12:09:00,334 - ERROR - Cannot identify image file
+2024-11-22 12:09:00,360 - INFO - 127.0.0.1 - - [22/Nov/2024 12:09:00] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:09:00,391 - ERROR - Cannot identify image file
+2024-11-22 12:09:00,443 - ERROR - Cannot identify image file
+2024-11-22 12:09:00,463 - ERROR - Cannot identify image file
+2024-11-22 12:09:00,507 - ERROR - Cannot identify image file
+2024-11-22 12:09:00,544 - INFO - 127.0.0.1 - - [22/Nov/2024 12:09:00] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:09:00,596 - ERROR - Cannot identify image file
+2024-11-22 12:09:00,640 - ERROR - Cannot identify image file
+2024-11-22 12:09:00,704 - ERROR - Cannot identify image file
+2024-11-22 12:09:00,749 - ERROR - Cannot identify image file
+2024-11-22 12:09:00,788 - INFO - 127.0.0.1 - - [22/Nov/2024 12:09:00] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:09:00,796 - ERROR - Cannot identify image file
+2024-11-22 12:09:01,289 - INFO - 127.0.0.1 - - [22/Nov/2024 12:09:01] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:09:46,919 - INFO - 192.168.43.85 - - [22/Nov/2024 12:09:46] "GET /socket.io/?EIO=4&transport=websocket&sid=4ujqCjC1Pi8IvSNcAAAA HTTP/1.1" 200 -
+2024-11-22 12:30:10,954 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.43.85:5000
+2024-11-22 12:30:10,955 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-22 12:30:10,955 - INFO -  * Restarting with stat
+2024-11-22 12:30:16,947 - WARNING -  * Debugger is active!
+2024-11-22 12:30:16,950 - INFO -  * Debugger PIN: 136-720-907
+2024-11-22 12:30:20,273 - INFO - Rendering the index page.
+2024-11-22 12:30:20,305 - INFO - 127.0.0.1 - - [22/Nov/2024 12:30:20] "GET / HTTP/1.1" 200 -
+2024-11-22 12:30:20,457 - INFO - 127.0.0.1 - - [22/Nov/2024 12:30:20] "GET /static/css/main.css HTTP/1.1" 200 -
+2024-11-22 12:30:20,478 - INFO - 127.0.0.1 - - [22/Nov/2024 12:30:20] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-22 12:30:21,750 - INFO - 127.0.0.1 - - [22/Nov/2024 12:30:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-22 12:30:21,986 - INFO - 192.168.43.85 - - [22/Nov/2024 12:30:21] "GET /socket.io/?EIO=4&transport=polling&t=PDJeoYA HTTP/1.1" 200 -
+2024-11-22 12:30:22,023 - INFO - 192.168.43.85 - - [22/Nov/2024 12:30:22] "POST /socket.io/?EIO=4&transport=polling&t=PDJeoYw&sid=I12leISRthDYEMVzAAAA HTTP/1.1" 200 -
+2024-11-22 12:30:22,025 - INFO - 192.168.43.85 - - [22/Nov/2024 12:30:22] "GET /socket.io/?EIO=4&transport=polling&t=PDJeoY-&sid=I12leISRthDYEMVzAAAA HTTP/1.1" 200 -
+2024-11-22 12:30:22,059 - INFO - 192.168.43.85 - - [22/Nov/2024 12:30:22] "POST /socket.io/?EIO=4&transport=polling&t=PDJeoZX&sid=I12leISRthDYEMVzAAAA HTTP/1.1" 200 -
+2024-11-22 12:30:22,060 - INFO - 192.168.43.85 - - [22/Nov/2024 12:30:22] "GET /socket.io/?EIO=4&transport=polling&t=PDJeoZW&sid=I12leISRthDYEMVzAAAA HTTP/1.1" 200 -
+2024-11-22 12:30:22,141 - ERROR - Cannot identify image file
+2024-11-22 12:30:22,142 - ERROR - Cannot identify image file
+2024-11-22 12:30:22,142 - ERROR - Cannot identify image file
+2024-11-22 12:30:22,147 - ERROR - Cannot identify image file
+2024-11-22 12:30:22,148 - INFO - 127.0.0.1 - - [22/Nov/2024 12:30:22] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:30:22,193 - ERROR - Cannot identify image file
+2024-11-22 12:30:22,198 - INFO - 127.0.0.1 - - [22/Nov/2024 12:30:22] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:30:22,237 - ERROR - Cannot identify image file
+2024-11-22 12:30:22,246 - INFO - 127.0.0.1 - - [22/Nov/2024 12:30:22] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:30:22,282 - ERROR - Cannot identify image file
+2024-11-22 12:30:22,289 - INFO - 127.0.0.1 - - [22/Nov/2024 12:30:22] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:30:22,328 - ERROR - Cannot identify image file
+2024-11-22 12:30:22,337 - INFO - 127.0.0.1 - - [22/Nov/2024 12:30:22] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:30:22,372 - ERROR - Cannot identify image file
+2024-11-22 12:30:22,379 - INFO - 127.0.0.1 - - [22/Nov/2024 12:30:22] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:30:22,419 - ERROR - Cannot identify image file
+2024-11-22 12:30:22,429 - INFO - 127.0.0.1 - - [22/Nov/2024 12:30:22] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:30:46,810 - INFO - 127.0.0.1 - - [22/Nov/2024 12:30:46] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-11-22 12:31:07,513 - INFO - 192.168.43.85 - - [22/Nov/2024 12:31:07] "GET /socket.io/?EIO=4&transport=websocket&sid=I12leISRthDYEMVzAAAA HTTP/1.1" 200 -
+2024-11-22 12:31:08,383 - INFO - 192.168.43.85 - - [22/Nov/2024 12:31:08] "GET /socket.io/?EIO=4&transport=polling&t=PDJeztI HTTP/1.1" 200 -
+2024-11-22 12:31:08,465 - INFO - 192.168.43.85 - - [22/Nov/2024 12:31:08] "POST /socket.io/?EIO=4&transport=polling&t=PDJezud&sid=HTfbOJwNHn0jKntiAAAC HTTP/1.1" 200 -
+2024-11-22 12:31:08,483 - INFO - 192.168.43.85 - - [22/Nov/2024 12:31:08] "GET /socket.io/?EIO=4&transport=polling&t=PDJezug&sid=HTfbOJwNHn0jKntiAAAC HTTP/1.1" 200 -
+2024-11-22 12:31:08,548 - INFO - 192.168.43.85 - - [22/Nov/2024 12:31:08] "GET /socket.io/?EIO=4&transport=polling&t=PDJezv-&sid=HTfbOJwNHn0jKntiAAAC HTTP/1.1" 200 -
+2024-11-22 12:31:08,590 - INFO - 192.168.43.85 - - [22/Nov/2024 12:31:08] "POST /socket.io/?EIO=4&transport=polling&t=PDJezw4&sid=HTfbOJwNHn0jKntiAAAC HTTP/1.1" 200 -
+2024-11-22 12:31:08,779 - INFO - 192.168.43.85 - - [22/Nov/2024 12:31:08] "GET /socket.io/?EIO=4&transport=polling&t=PDJezz7&sid=HTfbOJwNHn0jKntiAAAC HTTP/1.1" 200 -
+2024-11-22 12:31:53,563 - INFO - 192.168.43.85 - - [22/Nov/2024 12:31:53] "GET /socket.io/?EIO=4&transport=websocket&sid=HTfbOJwNHn0jKntiAAAC HTTP/1.1" 200 -
+2024-11-22 12:31:54,793 - INFO - 192.168.43.85 - - [22/Nov/2024 12:31:54] "GET /socket.io/?EIO=4&transport=polling&t=PDJf9CX HTTP/1.1" 200 -
+2024-11-22 12:31:54,861 - INFO - 192.168.43.85 - - [22/Nov/2024 12:31:54] "POST /socket.io/?EIO=4&transport=polling&t=PDJf9Dc&sid=PA9WTfiMWzAoDLY9AAAE HTTP/1.1" 200 -
+2024-11-22 12:31:54,871 - INFO - 192.168.43.85 - - [22/Nov/2024 12:31:54] "GET /socket.io/?EIO=4&transport=polling&t=PDJf9Dg&sid=PA9WTfiMWzAoDLY9AAAE HTTP/1.1" 200 -
+2024-11-22 12:31:54,971 - INFO - 192.168.43.85 - - [22/Nov/2024 12:31:54] "GET /socket.io/?EIO=4&transport=polling&t=PDJf9FB&sid=PA9WTfiMWzAoDLY9AAAE HTTP/1.1" 200 -
+2024-11-22 12:31:55,046 - INFO - 192.168.43.85 - - [22/Nov/2024 12:31:55] "GET /socket.io/?EIO=4&transport=polling&t=PDJf9GR&sid=PA9WTfiMWzAoDLY9AAAE HTTP/1.1" 200 -
+2024-11-22 12:32:13,698 - INFO - Rendering the index page.
+2024-11-22 12:32:13,701 - INFO - 127.0.0.1 - - [22/Nov/2024 12:32:13] "GET / HTTP/1.1" 200 -
+2024-11-22 12:32:13,807 - INFO - 192.168.43.85 - - [22/Nov/2024 12:32:13] "GET /socket.io/?EIO=4&transport=websocket&sid=PA9WTfiMWzAoDLY9AAAE HTTP/1.1" 200 -
+2024-11-22 12:32:13,937 - INFO - 127.0.0.1 - - [22/Nov/2024 12:32:13] "GET /static/css/main.css HTTP/1.1" 200 -
+2024-11-22 12:32:13,949 - INFO - 127.0.0.1 - - [22/Nov/2024 12:32:13] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-22 12:32:15,794 - INFO - 192.168.43.85 - - [22/Nov/2024 12:32:15] "GET /socket.io/?EIO=4&transport=polling&t=PDJfEKg HTTP/1.1" 200 -
+2024-11-22 12:32:15,982 - INFO - 192.168.43.85 - - [22/Nov/2024 12:32:15] "POST /socket.io/?EIO=4&transport=polling&t=PDJfEMS&sid=tzXmXzH_a68o_P90AAAG HTTP/1.1" 200 -
+2024-11-22 12:32:15,984 - INFO - 192.168.43.85 - - [22/Nov/2024 12:32:15] "GET /socket.io/?EIO=4&transport=polling&t=PDJfEMU&sid=tzXmXzH_a68o_P90AAAG HTTP/1.1" 200 -
+2024-11-22 12:32:16,047 - INFO - 192.168.43.85 - - [22/Nov/2024 12:32:16] "GET /socket.io/?EIO=4&transport=polling&t=PDJfEOU&sid=tzXmXzH_a68o_P90AAAG HTTP/1.1" 200 -
+2024-11-22 12:32:16,058 - ERROR - Cannot identify image file
+2024-11-22 12:32:16,064 - ERROR - Cannot identify image file
+2024-11-22 12:32:16,070 - ERROR - Cannot identify image file
+2024-11-22 12:32:16,067 - ERROR - Cannot identify image file
+2024-11-22 12:32:16,070 - INFO - 192.168.43.85 - - [22/Nov/2024 12:32:16] "POST /socket.io/?EIO=4&transport=polling&t=PDJfEOc&sid=tzXmXzH_a68o_P90AAAG HTTP/1.1" 200 -
+2024-11-22 12:32:16,090 - ERROR - Cannot identify image file
+2024-11-22 12:32:16,111 - INFO - 127.0.0.1 - - [22/Nov/2024 12:32:16] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:32:16,118 - ERROR - Cannot identify image file
+2024-11-22 12:32:16,161 - ERROR - Cannot identify image file
+2024-11-22 12:32:16,177 - INFO - 127.0.0.1 - - [22/Nov/2024 12:32:16] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:32:16,213 - ERROR - Cannot identify image file
+2024-11-22 12:32:16,258 - INFO - 127.0.0.1 - - [22/Nov/2024 12:32:16] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:33:01,690 - INFO - 192.168.43.85 - - [22/Nov/2024 12:33:01] "GET /socket.io/?EIO=4&transport=websocket&sid=tzXmXzH_a68o_P90AAAG HTTP/1.1" 200 -
+2024-11-22 12:33:03,567 - INFO - 192.168.43.85 - - [22/Nov/2024 12:33:03] "GET /socket.io/?EIO=4&transport=polling&t=PDJfP_8 HTTP/1.1" 200 -
+2024-11-22 12:33:03,639 - INFO - 192.168.43.85 - - [22/Nov/2024 12:33:03] "POST /socket.io/?EIO=4&transport=polling&t=PDJfQ0G&sid=cCA1jJPa5iq5D6vNAAAI HTTP/1.1" 200 -
+2024-11-22 12:33:03,649 - INFO - 192.168.43.85 - - [22/Nov/2024 12:33:03] "GET /socket.io/?EIO=4&transport=polling&t=PDJfQ0J&sid=cCA1jJPa5iq5D6vNAAAI HTTP/1.1" 200 -
+2024-11-22 12:33:03,726 - INFO - 192.168.43.85 - - [22/Nov/2024 12:33:03] "GET /socket.io/?EIO=4&transport=polling&t=PDJfQ1f&sid=cCA1jJPa5iq5D6vNAAAI HTTP/1.1" 200 -
+2024-11-22 12:33:03,776 - INFO - 192.168.43.85 - - [22/Nov/2024 12:33:03] "POST /socket.io/?EIO=4&transport=polling&t=PDJfQ1l&sid=cCA1jJPa5iq5D6vNAAAI HTTP/1.1" 200 -
+2024-11-22 12:33:03,954 - INFO - 192.168.43.85 - - [22/Nov/2024 12:33:03] "GET /socket.io/?EIO=4&transport=polling&t=PDJfQ59&sid=cCA1jJPa5iq5D6vNAAAI HTTP/1.1" 200 -
+2024-11-22 12:33:05,101 - INFO - Rendering the index page.
+2024-11-22 12:33:05,108 - INFO - 127.0.0.1 - - [22/Nov/2024 12:33:05] "GET / HTTP/1.1" 200 -
+2024-11-22 12:33:05,191 - INFO - 192.168.43.85 - - [22/Nov/2024 12:33:05] "GET /socket.io/?EIO=4&transport=websocket&sid=cCA1jJPa5iq5D6vNAAAI HTTP/1.1" 200 -
+2024-11-22 12:33:05,237 - INFO - 127.0.0.1 - - [22/Nov/2024 12:33:05] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-11-22 12:33:05,248 - INFO - 127.0.0.1 - - [22/Nov/2024 12:33:05] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-22 12:33:07,191 - INFO - 192.168.43.85 - - [22/Nov/2024 12:33:07] "GET /socket.io/?EIO=4&transport=polling&t=PDJfQtc HTTP/1.1" 200 -
+2024-11-22 12:33:07,452 - INFO - 192.168.43.85 - - [22/Nov/2024 12:33:07] "POST /socket.io/?EIO=4&transport=polling&t=PDJfQwY&sid=UsRr5CvTDw-09oVwAAAK HTTP/1.1" 200 -
+2024-11-22 12:33:07,484 - INFO - 192.168.43.85 - - [22/Nov/2024 12:33:07] "GET /socket.io/?EIO=4&transport=polling&t=PDJfQwb&sid=UsRr5CvTDw-09oVwAAAK HTTP/1.1" 200 -
+2024-11-22 12:33:07,543 - ERROR - Cannot identify image file
+2024-11-22 12:33:07,549 - ERROR - Cannot identify image file
+2024-11-22 12:33:07,557 - ERROR - Cannot identify image file
+2024-11-22 12:33:07,564 - ERROR - Cannot identify image file
+2024-11-22 12:33:07,570 - INFO - 127.0.0.1 - - [22/Nov/2024 12:33:07] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:33:07,576 - ERROR - Cannot identify image file
+2024-11-22 12:33:07,589 - ERROR - Cannot identify image file
+2024-11-22 12:33:07,601 - INFO - 127.0.0.1 - - [22/Nov/2024 12:33:07] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:33:07,648 - INFO - 127.0.0.1 - - [22/Nov/2024 12:33:07] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:33:07,653 - ERROR - Cannot identify image file
+2024-11-22 12:33:07,689 - ERROR - Cannot identify image file
+2024-11-22 12:33:07,704 - INFO - 127.0.0.1 - - [22/Nov/2024 12:33:07] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:33:07,730 - ERROR - Cannot identify image file
+2024-11-22 12:33:07,746 - INFO - 127.0.0.1 - - [22/Nov/2024 12:33:07] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:33:35,501 - INFO - Rendering the index page.
+2024-11-22 12:33:35,508 - INFO - 127.0.0.1 - - [22/Nov/2024 12:33:35] "GET / HTTP/1.1" 200 -
+2024-11-22 12:33:35,604 - INFO - 192.168.43.85 - - [22/Nov/2024 12:33:35] "GET /socket.io/?EIO=4&transport=websocket&sid=UsRr5CvTDw-09oVwAAAK HTTP/1.1" 200 -
+2024-11-22 12:33:35,703 - INFO - 127.0.0.1 - - [22/Nov/2024 12:33:35] "GET /static/css/main.css HTTP/1.1" 200 -
+2024-11-22 12:33:35,747 - INFO - 127.0.0.1 - - [22/Nov/2024 12:33:35] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-22 12:33:37,625 - INFO - 192.168.43.85 - - [22/Nov/2024 12:33:37] "GET /socket.io/?EIO=4&transport=polling&t=PDJfYJJ HTTP/1.1" 200 -
+2024-11-22 12:33:37,805 - INFO - 192.168.43.85 - - [22/Nov/2024 12:33:37] "POST /socket.io/?EIO=4&transport=polling&t=PDJfYLE&sid=9bneW2AlHnXSZHcxAAAM HTTP/1.1" 200 -
+2024-11-22 12:33:37,806 - INFO - 192.168.43.85 - - [22/Nov/2024 12:33:37] "GET /socket.io/?EIO=4&transport=polling&t=PDJfYLJ&sid=9bneW2AlHnXSZHcxAAAM HTTP/1.1" 200 -
+2024-11-22 12:33:37,870 - ERROR - Cannot identify image file
+2024-11-22 12:33:37,872 - ERROR - Cannot identify image file
+2024-11-22 12:33:37,874 - ERROR - Cannot identify image file
+2024-11-22 12:33:37,880 - ERROR - Cannot identify image file
+2024-11-22 12:33:37,892 - INFO - 127.0.0.1 - - [22/Nov/2024 12:33:37] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:33:37,900 - ERROR - Cannot identify image file
+2024-11-22 12:33:37,952 - ERROR - Cannot identify image file
+2024-11-22 12:33:37,962 - INFO - 127.0.0.1 - - [22/Nov/2024 12:33:37] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:33:37,996 - ERROR - Cannot identify image file
+2024-11-22 12:33:38,010 - INFO - 127.0.0.1 - - [22/Nov/2024 12:33:38] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:33:38,030 - ERROR - Cannot identify image file
+2024-11-22 12:34:22,800 - INFO - 192.168.43.85 - - [22/Nov/2024 12:34:22] "GET /socket.io/?EIO=4&transport=websocket&sid=9bneW2AlHnXSZHcxAAAM HTTP/1.1" 200 -
+2024-11-22 12:34:24,456 - INFO - 192.168.43.85 - - [22/Nov/2024 12:34:24] "GET /socket.io/?EIO=4&transport=polling&t=PDJfjkt HTTP/1.1" 200 -
+2024-11-22 12:34:24,569 - INFO - 192.168.43.85 - - [22/Nov/2024 12:34:24] "POST /socket.io/?EIO=4&transport=polling&t=PDJfjml&sid=L340J24l5hu8KSkjAAAO HTTP/1.1" 200 -
+2024-11-22 12:34:24,578 - INFO - 192.168.43.85 - - [22/Nov/2024 12:34:24] "GET /socket.io/?EIO=4&transport=polling&t=PDJfjmr&sid=L340J24l5hu8KSkjAAAO HTTP/1.1" 200 -
+2024-11-22 12:34:24,716 - INFO - 192.168.43.85 - - [22/Nov/2024 12:34:24] "GET /socket.io/?EIO=4&transport=polling&t=PDJfjok&sid=L340J24l5hu8KSkjAAAO HTTP/1.1" 200 -
+2024-11-22 12:34:24,830 - INFO - 192.168.43.85 - - [22/Nov/2024 12:34:24] "POST /socket.io/?EIO=4&transport=polling&t=PDJfjor&sid=L340J24l5hu8KSkjAAAO HTTP/1.1" 200 -
+2024-11-22 12:34:24,977 - INFO - 192.168.43.85 - - [22/Nov/2024 12:34:24] "GET /socket.io/?EIO=4&transport=polling&t=PDJfjt9&sid=L340J24l5hu8KSkjAAAO HTTP/1.1" 200 -
+2024-11-22 12:34:25,882 - INFO - Rendering the index page.
+2024-11-22 12:34:25,884 - INFO - 127.0.0.1 - - [22/Nov/2024 12:34:25] "GET / HTTP/1.1" 200 -
+2024-11-22 12:34:25,986 - INFO - 192.168.43.85 - - [22/Nov/2024 12:34:25] "GET /socket.io/?EIO=4&transport=websocket&sid=L340J24l5hu8KSkjAAAO HTTP/1.1" 200 -
+2024-11-22 12:34:26,053 - INFO - 127.0.0.1 - - [22/Nov/2024 12:34:26] "GET /static/css/main.css HTTP/1.1" 200 -
+2024-11-22 12:34:26,082 - INFO - 127.0.0.1 - - [22/Nov/2024 12:34:26] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-22 12:34:27,978 - INFO - 192.168.43.85 - - [22/Nov/2024 12:34:27] "GET /socket.io/?EIO=4&transport=polling&t=PDJfkb- HTTP/1.1" 200 -
+2024-11-22 12:34:28,184 - INFO - 192.168.43.85 - - [22/Nov/2024 12:34:28] "POST /socket.io/?EIO=4&transport=polling&t=PDJfkdm&sid=O6XarqFpKfnStnKZAAAQ HTTP/1.1" 200 -
+2024-11-22 12:34:28,187 - INFO - 192.168.43.85 - - [22/Nov/2024 12:34:28] "GET /socket.io/?EIO=4&transport=polling&t=PDJfkdp&sid=O6XarqFpKfnStnKZAAAQ HTTP/1.1" 200 -
+2024-11-22 12:34:28,230 - ERROR - Cannot identify image file
+2024-11-22 12:34:28,235 - ERROR - Cannot identify image file
+2024-11-22 12:34:28,238 - ERROR - Cannot identify image file
+2024-11-22 12:34:28,241 - ERROR - Cannot identify image file
+2024-11-22 12:34:28,244 - ERROR - Cannot identify image file
+2024-11-22 12:34:28,257 - INFO - 127.0.0.1 - - [22/Nov/2024 12:34:28] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:34:28,290 - ERROR - Cannot identify image file
+2024-11-22 12:34:28,307 - INFO - 127.0.0.1 - - [22/Nov/2024 12:34:28] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:34:28,331 - ERROR - Cannot identify image file
+2024-11-22 12:34:28,349 - INFO - 127.0.0.1 - - [22/Nov/2024 12:34:28] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:34:28,380 - ERROR - Cannot identify image file
+2024-11-22 12:34:28,409 - INFO - 127.0.0.1 - - [22/Nov/2024 12:34:28] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:35:13,813 - INFO - 192.168.43.85 - - [22/Nov/2024 12:35:13] "GET /socket.io/?EIO=4&transport=websocket&sid=O6XarqFpKfnStnKZAAAQ HTTP/1.1" 200 -
+2024-11-22 12:35:15,413 - INFO - 192.168.43.85 - - [22/Nov/2024 12:35:15] "GET /socket.io/?EIO=4&transport=polling&t=PDJfwB8 HTTP/1.1" 200 -
+2024-11-22 12:35:15,523 - INFO - 192.168.43.85 - - [22/Nov/2024 12:35:15] "POST /socket.io/?EIO=4&transport=polling&t=PDJfwCw&sid=6EuB8DJkr5yei0PhAAAS HTTP/1.1" 200 -
+2024-11-22 12:35:15,530 - INFO - 192.168.43.85 - - [22/Nov/2024 12:35:15] "GET /socket.io/?EIO=4&transport=polling&t=PDJfwC_&sid=6EuB8DJkr5yei0PhAAAS HTTP/1.1" 200 -
+2024-11-22 12:35:15,631 - INFO - 192.168.43.85 - - [22/Nov/2024 12:35:15] "GET /socket.io/?EIO=4&transport=polling&t=PDJfwEV&sid=6EuB8DJkr5yei0PhAAAS HTTP/1.1" 200 -
+2024-11-22 12:35:15,744 - INFO - 192.168.43.85 - - [22/Nov/2024 12:35:15] "GET /socket.io/?EIO=4&transport=polling&t=PDJfwGP&sid=6EuB8DJkr5yei0PhAAAS HTTP/1.1" 200 -
+2024-11-22 12:36:00,862 - INFO - 192.168.43.85 - - [22/Nov/2024 12:36:00] "GET /socket.io/?EIO=4&transport=websocket&sid=6EuB8DJkr5yei0PhAAAS HTTP/1.1" 200 -
+2024-11-22 12:36:02,409 - INFO - 192.168.43.85 - - [22/Nov/2024 12:36:02] "GET /socket.io/?EIO=4&transport=polling&t=PDJg5f8 HTTP/1.1" 200 -
+2024-11-22 12:36:02,496 - INFO - 192.168.43.85 - - [22/Nov/2024 12:36:02] "POST /socket.io/?EIO=4&transport=polling&t=PDJg5gj&sid=jundjZkwi1Z1AasOAAAU HTTP/1.1" 200 -
+2024-11-22 12:36:02,531 - INFO - 192.168.43.85 - - [22/Nov/2024 12:36:02] "GET /socket.io/?EIO=4&transport=polling&t=PDJg5gm&sid=jundjZkwi1Z1AasOAAAU HTTP/1.1" 200 -
+2024-11-22 12:36:02,742 - INFO - 192.168.43.85 - - [22/Nov/2024 12:36:02] "GET /socket.io/?EIO=4&transport=polling&t=PDJg5kb&sid=jundjZkwi1Z1AasOAAAU HTTP/1.1" 200 -
+2024-11-22 12:36:02,802 - INFO - 192.168.43.85 - - [22/Nov/2024 12:36:02] "POST /socket.io/?EIO=4&transport=polling&t=PDJg5kq&sid=jundjZkwi1Z1AasOAAAU HTTP/1.1" 200 -
+2024-11-22 12:36:47,545 - INFO - 192.168.43.85 - - [22/Nov/2024 12:36:47] "GET /socket.io/?EIO=4&transport=websocket&sid=jundjZkwi1Z1AasOAAAU HTTP/1.1" 200 -
+2024-11-22 12:36:49,090 - INFO - 192.168.43.85 - - [22/Nov/2024 12:36:49] "GET /socket.io/?EIO=4&transport=polling&t=PDJgH2r HTTP/1.1" 200 -
+2024-11-22 12:36:49,211 - INFO - 192.168.43.85 - - [22/Nov/2024 12:36:49] "POST /socket.io/?EIO=4&transport=polling&t=PDJgH4S&sid=V0J6S7vXqbVYVm7xAAAW HTTP/1.1" 200 -
+2024-11-22 12:36:49,215 - INFO - 192.168.43.85 - - [22/Nov/2024 12:36:49] "GET /socket.io/?EIO=4&transport=polling&t=PDJgH4W&sid=V0J6S7vXqbVYVm7xAAAW HTTP/1.1" 200 -
+2024-11-22 12:36:49,219 - INFO - Rendering the index page.
+2024-11-22 12:36:49,238 - INFO - 127.0.0.1 - - [22/Nov/2024 12:36:49] "GET / HTTP/1.1" 200 -
+2024-11-22 12:36:49,221 - INFO - 192.168.43.85 - - [22/Nov/2024 12:36:49] "POST /socket.io/?EIO=4&transport=polling&t=PDJgH4Y&sid=V0J6S7vXqbVYVm7xAAAW HTTP/1.1" 200 -
+2024-11-22 12:36:49,288 - INFO - 192.168.43.85 - - [22/Nov/2024 12:36:49] "[35m[1mGET /socket.io/?EIO=4&transport=websocket&sid=V0J6S7vXqbVYVm7xAAAW HTTP/1.1[0m" 500 -
+2024-11-22 12:36:49,493 - INFO - 127.0.0.1 - - [22/Nov/2024 12:36:49] "GET /static/css/main.css HTTP/1.1" 200 -
+2024-11-22 12:36:49,517 - INFO - 127.0.0.1 - - [22/Nov/2024 12:36:49] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-22 12:36:51,549 - INFO - 192.168.43.85 - - [22/Nov/2024 12:36:51] "GET /socket.io/?EIO=4&transport=polling&t=PDJgHfM HTTP/1.1" 200 -
+2024-11-22 12:36:51,733 - INFO - 192.168.43.85 - - [22/Nov/2024 12:36:51] "POST /socket.io/?EIO=4&transport=polling&t=PDJgHhJ&sid=UEuDMaTBUL4Nb4ruAAAY HTTP/1.1" 200 -
+2024-11-22 12:36:51,736 - INFO - 192.168.43.85 - - [22/Nov/2024 12:36:51] "GET /socket.io/?EIO=4&transport=polling&t=PDJgHhN&sid=UEuDMaTBUL4Nb4ruAAAY HTTP/1.1" 200 -
+2024-11-22 12:36:51,805 - INFO - 192.168.43.85 - - [22/Nov/2024 12:36:51] "GET /socket.io/?EIO=4&transport=polling&t=PDJgHj4&sid=UEuDMaTBUL4Nb4ruAAAY HTTP/1.1" 200 -
+2024-11-22 12:36:51,826 - ERROR - Cannot identify image file
+2024-11-22 12:36:51,826 - INFO - 192.168.43.85 - - [22/Nov/2024 12:36:51] "POST /socket.io/?EIO=4&transport=polling&t=PDJgHjC&sid=UEuDMaTBUL4Nb4ruAAAY HTTP/1.1" 200 -
+2024-11-22 12:36:51,857 - ERROR - Cannot identify image file
+2024-11-22 12:36:51,864 - ERROR - Cannot identify image file
+2024-11-22 12:36:51,870 - ERROR - Cannot identify image file
+2024-11-22 12:36:51,873 - ERROR - Cannot identify image file
+2024-11-22 12:36:51,866 - ERROR - Cannot identify image file
+2024-11-22 12:36:51,880 - INFO - 127.0.0.1 - - [22/Nov/2024 12:36:51] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:36:51,935 - ERROR - Cannot identify image file
+2024-11-22 12:36:51,943 - INFO - 127.0.0.1 - - [22/Nov/2024 12:36:51] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:36:51,964 - ERROR - Cannot identify image file
+2024-11-22 12:36:52,009 - ERROR - Cannot identify image file
+2024-11-22 12:36:52,019 - INFO - 127.0.0.1 - - [22/Nov/2024 12:36:52] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:37:36,773 - INFO - 192.168.43.85 - - [22/Nov/2024 12:37:36] "GET /socket.io/?EIO=4&transport=websocket&sid=UEuDMaTBUL4Nb4ruAAAY HTTP/1.1" 200 -
+2024-11-22 12:37:37,911 - INFO - 192.168.43.85 - - [22/Nov/2024 12:37:37] "GET /socket.io/?EIO=4&transport=polling&t=PDJgSzl HTTP/1.1" 200 -
+2024-11-22 12:37:37,981 - INFO - 192.168.43.85 - - [22/Nov/2024 12:37:37] "POST /socket.io/?EIO=4&transport=polling&t=PDJgS-r&sid=ew-3JZO5TY0HkTzmAAAa HTTP/1.1" 200 -
+2024-11-22 12:37:37,992 - INFO - 192.168.43.85 - - [22/Nov/2024 12:37:37] "GET /socket.io/?EIO=4&transport=polling&t=PDJgS-t&sid=ew-3JZO5TY0HkTzmAAAa HTTP/1.1" 200 -
+2024-11-22 12:37:38,057 - INFO - 192.168.43.85 - - [22/Nov/2024 12:37:38] "GET /socket.io/?EIO=4&transport=polling&t=PDJgT04&sid=ew-3JZO5TY0HkTzmAAAa HTTP/1.1" 200 -
+2024-11-22 12:37:38,100 - INFO - 192.168.43.85 - - [22/Nov/2024 12:37:38] "POST /socket.io/?EIO=4&transport=polling&t=PDJgT0B&sid=ew-3JZO5TY0HkTzmAAAa HTTP/1.1" 200 -
+2024-11-22 12:37:38,247 - INFO - 192.168.43.85 - - [22/Nov/2024 12:37:38] "GET /socket.io/?EIO=4&transport=polling&t=PDJgT32&sid=ew-3JZO5TY0HkTzmAAAa HTTP/1.1" 200 -
+2024-11-22 12:38:02,278 - INFO - 192.168.43.85 - - [22/Nov/2024 12:38:02] "GET /socket.io/?EIO=4&transport=websocket&sid=ew-3JZO5TY0HkTzmAAAa HTTP/1.1" 200 -
+2024-11-22 12:48:38,907 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.43.85:5000
+2024-11-22 12:48:38,907 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-22 12:48:38,907 - INFO -  * Restarting with stat
+2024-11-22 12:48:44,978 - WARNING -  * Debugger is active!
+2024-11-22 12:48:44,980 - INFO -  * Debugger PIN: 136-720-907
+2024-11-22 12:48:45,010 - INFO - Rendering the index page.
+2024-11-22 12:48:45,015 - INFO - 127.0.0.1 - - [22/Nov/2024 12:48:45] "GET / HTTP/1.1" 200 -
+2024-11-22 12:48:45,078 - INFO - 127.0.0.1 - - [22/Nov/2024 12:48:45] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-22 12:48:45,080 - INFO - 127.0.0.1 - - [22/Nov/2024 12:48:45] "GET /static/css/main.css HTTP/1.1" 200 -
+2024-11-22 12:48:49,483 - INFO - 192.168.43.85 - - [22/Nov/2024 12:48:49] "GET /socket.io/?EIO=4&transport=polling&t=PDJj0x6 HTTP/1.1" 200 -
+2024-11-22 12:48:49,513 - INFO - 192.168.43.85 - - [22/Nov/2024 12:48:49] "POST /socket.io/?EIO=4&transport=polling&t=PDJj0xU&sid=gNsuJPwp4_rdQd5YAAAA HTTP/1.1" 200 -
+2024-11-22 12:48:49,525 - INFO - 192.168.43.85 - - [22/Nov/2024 12:48:49] "GET /socket.io/?EIO=4&transport=polling&t=PDJj0xY&sid=gNsuJPwp4_rdQd5YAAAA HTTP/1.1" 200 -
+2024-11-22 12:48:49,608 - ERROR - Cannot identify image file
+2024-11-22 12:48:49,608 - ERROR - Cannot identify image file
+2024-11-22 12:48:49,615 - INFO - 127.0.0.1 - - [22/Nov/2024 12:48:49] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:48:49,619 - ERROR - Cannot identify image file
+2024-11-22 12:48:49,664 - INFO - 127.0.0.1 - - [22/Nov/2024 12:48:49] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:48:49,665 - ERROR - Cannot identify image file
+2024-11-22 12:48:49,707 - ERROR - Cannot identify image file
+2024-11-22 12:48:49,713 - INFO - 127.0.0.1 - - [22/Nov/2024 12:48:49] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:48:49,752 - ERROR - Cannot identify image file
+2024-11-22 12:48:49,756 - INFO - 127.0.0.1 - - [22/Nov/2024 12:48:49] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:48:49,797 - ERROR - Cannot identify image file
+2024-11-22 12:48:49,805 - INFO - 127.0.0.1 - - [22/Nov/2024 12:48:49] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:48:49,843 - ERROR - Cannot identify image file
+2024-11-22 12:48:49,852 - INFO - 127.0.0.1 - - [22/Nov/2024 12:48:49] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:48:49,887 - ERROR - Cannot identify image file
+2024-11-22 12:48:49,895 - INFO - 127.0.0.1 - - [22/Nov/2024 12:48:49] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:48:49,932 - ERROR - Cannot identify image file
+2024-11-22 12:48:49,937 - INFO - 127.0.0.1 - - [22/Nov/2024 12:48:49] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:49:35,047 - INFO - 192.168.43.85 - - [22/Nov/2024 12:49:35] "GET /socket.io/?EIO=4&transport=websocket&sid=gNsuJPwp4_rdQd5YAAAA HTTP/1.1" 200 -
+2024-11-22 12:49:35,868 - INFO - 192.168.43.85 - - [22/Nov/2024 12:49:35] "GET /socket.io/?EIO=4&transport=polling&t=PDJjCFs HTTP/1.1" 200 -
+2024-11-22 12:49:35,938 - INFO - 192.168.43.85 - - [22/Nov/2024 12:49:35] "POST /socket.io/?EIO=4&transport=polling&t=PDJjCGt&sid=u25PS3v6UVsZ9MxTAAAC HTTP/1.1" 200 -
+2024-11-22 12:49:35,944 - INFO - 192.168.43.85 - - [22/Nov/2024 12:49:35] "GET /socket.io/?EIO=4&transport=polling&t=PDJjCGv&sid=u25PS3v6UVsZ9MxTAAAC HTTP/1.1" 200 -
+2024-11-22 12:49:36,023 - INFO - 192.168.43.85 - - [22/Nov/2024 12:49:36] "GET /socket.io/?EIO=4&transport=polling&t=PDJjCIJ&sid=u25PS3v6UVsZ9MxTAAAC HTTP/1.1" 200 -
+2024-11-22 12:49:36,068 - INFO - 192.168.43.85 - - [22/Nov/2024 12:49:36] "POST /socket.io/?EIO=4&transport=polling&t=PDJjCIO&sid=u25PS3v6UVsZ9MxTAAAC HTTP/1.1" 200 -
+2024-11-22 12:49:36,200 - INFO - 192.168.43.85 - - [22/Nov/2024 12:49:36] "GET /socket.io/?EIO=4&transport=polling&t=PDJjCK-&sid=u25PS3v6UVsZ9MxTAAAC HTTP/1.1" 200 -
+2024-11-22 12:49:50,063 - INFO - 192.168.43.85 - - [22/Nov/2024 12:49:50] "GET /socket.io/?EIO=4&transport=websocket&sid=u25PS3v6UVsZ9MxTAAAC HTTP/1.1" 200 -
+2024-11-22 12:50:26,503 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.43.85:5000
+2024-11-22 12:50:26,503 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-22 12:50:26,503 - INFO -  * Restarting with stat
+2024-11-22 12:50:32,385 - WARNING -  * Debugger is active!
+2024-11-22 12:50:32,386 - INFO -  * Debugger PIN: 136-720-907
+2024-11-22 12:50:32,418 - INFO - Rendering the index page.
+2024-11-22 12:50:32,423 - INFO - 127.0.0.1 - - [22/Nov/2024 12:50:32] "GET / HTTP/1.1" 200 -
+2024-11-22 12:50:32,484 - INFO - 127.0.0.1 - - [22/Nov/2024 12:50:32] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-11-22 12:50:32,486 - INFO - 127.0.0.1 - - [22/Nov/2024 12:50:32] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-22 12:50:33,148 - INFO - 192.168.43.85 - - [22/Nov/2024 12:50:33] "GET /socket.io/?EIO=4&transport=polling&t=PDJjQEt HTTP/1.1" 200 -
+2024-11-22 12:50:33,192 - INFO - 192.168.43.85 - - [22/Nov/2024 12:50:33] "POST /socket.io/?EIO=4&transport=polling&t=PDJjQFO&sid=Z3rOP9DetonqDo19AAAA HTTP/1.1" 200 -
+2024-11-22 12:50:33,206 - INFO - 192.168.43.85 - - [22/Nov/2024 12:50:33] "GET /socket.io/?EIO=4&transport=polling&t=PDJjQFT&sid=Z3rOP9DetonqDo19AAAA HTTP/1.1" 200 -
+2024-11-22 12:50:33,239 - INFO - 192.168.43.85 - - [22/Nov/2024 12:50:33] "GET /socket.io/?EIO=4&transport=polling&t=PDJjQGB&sid=Z3rOP9DetonqDo19AAAA HTTP/1.1" 200 -
+2024-11-22 12:50:33,241 - INFO - 192.168.43.85 - - [22/Nov/2024 12:50:33] "POST /socket.io/?EIO=4&transport=polling&t=PDJjQGD&sid=Z3rOP9DetonqDo19AAAA HTTP/1.1" 200 -
+2024-11-22 12:50:33,304 - ERROR - Cannot identify image file
+2024-11-22 12:50:33,304 - ERROR - Cannot identify image file
+2024-11-22 12:50:33,304 - ERROR - Cannot identify image file
+2024-11-22 12:50:33,309 - INFO - 127.0.0.1 - - [22/Nov/2024 12:50:33] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:50:33,328 - ERROR - Cannot identify image file
+2024-11-22 12:50:33,336 - INFO - 127.0.0.1 - - [22/Nov/2024 12:50:33] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:50:33,374 - INFO - 127.0.0.1 - - [22/Nov/2024 12:50:33] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:50:33,376 - ERROR - Cannot identify image file
+2024-11-22 12:50:33,416 - ERROR - Cannot identify image file
+2024-11-22 12:50:33,426 - INFO - 127.0.0.1 - - [22/Nov/2024 12:50:33] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:50:33,463 - ERROR - Cannot identify image file
+2024-11-22 12:50:33,468 - INFO - 127.0.0.1 - - [22/Nov/2024 12:50:33] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:50:33,507 - ERROR - Cannot identify image file
+2024-11-22 12:50:33,516 - INFO - 127.0.0.1 - - [22/Nov/2024 12:50:33] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:50:33,551 - ERROR - Cannot identify image file
+2024-11-22 12:50:33,558 - INFO - 127.0.0.1 - - [22/Nov/2024 12:50:33] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:50:33,598 - ERROR - Cannot identify image file
+2024-11-22 12:50:33,604 - INFO - 127.0.0.1 - - [22/Nov/2024 12:50:33] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:50:39,189 - INFO - 127.0.0.1 - - [22/Nov/2024 12:50:39] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-11-22 12:51:18,153 - INFO - 192.168.43.85 - - [22/Nov/2024 12:51:18] "GET /socket.io/?EIO=4&transport=websocket&sid=Z3rOP9DetonqDo19AAAA HTTP/1.1" 200 -
+2024-11-22 12:51:19,421 - INFO - 192.168.43.85 - - [22/Nov/2024 12:51:19] "GET /socket.io/?EIO=4&transport=polling&t=PDJjbXq HTTP/1.1" 200 -
+2024-11-22 12:51:19,495 - INFO - 192.168.43.85 - - [22/Nov/2024 12:51:19] "POST /socket.io/?EIO=4&transport=polling&t=PDJjbYx&sid=fh3tNn1qepghqJjYAAAC HTTP/1.1" 200 -
+2024-11-22 12:51:19,502 - INFO - 192.168.43.85 - - [22/Nov/2024 12:51:19] "GET /socket.io/?EIO=4&transport=polling&t=PDJjbYz&sid=fh3tNn1qepghqJjYAAAC HTTP/1.1" 200 -
+2024-11-22 12:51:19,591 - INFO - 192.168.43.85 - - [22/Nov/2024 12:51:19] "GET /socket.io/?EIO=4&transport=polling&t=PDJjbaT&sid=fh3tNn1qepghqJjYAAAC HTTP/1.1" 200 -
+2024-11-22 12:51:19,667 - INFO - 192.168.43.85 - - [22/Nov/2024 12:51:19] "GET /socket.io/?EIO=4&transport=polling&t=PDJjbbd&sid=fh3tNn1qepghqJjYAAAC HTTP/1.1" 200 -
+2024-11-22 12:51:59,895 - INFO - Rendering the index page.
+2024-11-22 12:51:59,903 - INFO - 127.0.0.1 - - [22/Nov/2024 12:51:59] "GET / HTTP/1.1" 200 -
+2024-11-22 12:51:59,989 - INFO - 192.168.43.85 - - [22/Nov/2024 12:51:59] "GET /socket.io/?EIO=4&transport=websocket&sid=fh3tNn1qepghqJjYAAAC HTTP/1.1" 200 -
+2024-11-22 12:52:00,090 - INFO - 127.0.0.1 - - [22/Nov/2024 12:52:00] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-11-22 12:52:00,116 - INFO - 127.0.0.1 - - [22/Nov/2024 12:52:00] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-22 12:52:02,678 - INFO - 192.168.43.85 - - [22/Nov/2024 12:52:02] "GET /socket.io/?EIO=4&transport=polling&t=PDJjm5Q HTTP/1.1" 200 -
+2024-11-22 12:52:02,876 - INFO - 192.168.43.85 - - [22/Nov/2024 12:52:02] "POST /socket.io/?EIO=4&transport=polling&t=PDJjm7j&sid=KmuPeKLWN6cAUIw7AAAE HTTP/1.1" 200 -
+2024-11-22 12:52:02,882 - INFO - 192.168.43.85 - - [22/Nov/2024 12:52:02] "GET /socket.io/?EIO=4&transport=polling&t=PDJjm7q&sid=KmuPeKLWN6cAUIw7AAAE HTTP/1.1" 200 -
+2024-11-22 12:52:02,949 - INFO - 192.168.43.85 - - [22/Nov/2024 12:52:02] "GET /socket.io/?EIO=4&transport=polling&t=PDJjm9g&sid=KmuPeKLWN6cAUIw7AAAE HTTP/1.1" 200 -
+2024-11-22 12:52:02,957 - ERROR - Cannot identify image file
+2024-11-22 12:52:02,958 - INFO - 192.168.43.85 - - [22/Nov/2024 12:52:02] "POST /socket.io/?EIO=4&transport=polling&t=PDJjm9m&sid=KmuPeKLWN6cAUIw7AAAE HTTP/1.1" 200 -
+2024-11-22 12:52:02,994 - ERROR - Cannot identify image file
+2024-11-22 12:52:03,004 - ERROR - Cannot identify image file
+2024-11-22 12:52:02,998 - ERROR - Cannot identify image file
+2024-11-22 12:52:03,007 - ERROR - Cannot identify image file
+2024-11-22 12:52:03,016 - INFO - 127.0.0.1 - - [22/Nov/2024 12:52:03] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:52:03,012 - ERROR - Cannot identify image file
+2024-11-22 12:52:03,034 - ERROR - Cannot identify image file
+2024-11-22 12:52:03,064 - ERROR - Cannot identify image file
+2024-11-22 12:52:03,093 - INFO - 127.0.0.1 - - [22/Nov/2024 12:52:03] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:52:03,114 - ERROR - Cannot identify image file
+2024-11-22 12:52:03,144 - INFO - 127.0.0.1 - - [22/Nov/2024 12:52:03] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:52:03,157 - ERROR - Cannot identify image file
+2024-11-22 12:52:03,189 - INFO - 127.0.0.1 - - [22/Nov/2024 12:52:03] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:52:03,200 - ERROR - Cannot identify image file
+2024-11-22 12:52:03,257 - INFO - 127.0.0.1 - - [22/Nov/2024 12:52:03] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:52:48,302 - INFO - 192.168.43.85 - - [22/Nov/2024 12:52:48] "GET /socket.io/?EIO=4&transport=websocket&sid=KmuPeKLWN6cAUIw7AAAE HTTP/1.1" 200 -
+2024-11-22 12:52:50,344 - INFO - 192.168.43.85 - - [22/Nov/2024 12:52:50] "GET /socket.io/?EIO=4&transport=polling&t=PDJjxkW HTTP/1.1" 200 -
+2024-11-22 12:52:50,432 - INFO - 192.168.43.85 - - [22/Nov/2024 12:52:50] "POST /socket.io/?EIO=4&transport=polling&t=PDJjxlk&sid=ofIgx1ekmRlKI3IKAAAG HTTP/1.1" 200 -
+2024-11-22 12:52:50,438 - INFO - 192.168.43.85 - - [22/Nov/2024 12:52:50] "GET /socket.io/?EIO=4&transport=polling&t=PDJjxln&sid=ofIgx1ekmRlKI3IKAAAG HTTP/1.1" 200 -
+2024-11-22 12:52:50,529 - INFO - 192.168.43.85 - - [22/Nov/2024 12:52:50] "GET /socket.io/?EIO=4&transport=polling&t=PDJjxnH&sid=ofIgx1ekmRlKI3IKAAAG HTTP/1.1" 200 -
+2024-11-22 12:52:50,619 - INFO - 192.168.43.85 - - [22/Nov/2024 12:52:50] "GET /socket.io/?EIO=4&transport=polling&t=PDJjxop&sid=ofIgx1ekmRlKI3IKAAAG HTTP/1.1" 200 -
+2024-11-22 12:53:16,713 - INFO - 192.168.43.85 - - [22/Nov/2024 12:53:16] "GET /socket.io/?EIO=4&transport=websocket&sid=ofIgx1ekmRlKI3IKAAAG HTTP/1.1" 200 -
+2024-11-22 12:58:38,377 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.43.85:5000
+2024-11-22 12:58:38,377 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-22 12:58:38,377 - INFO -  * Restarting with stat
+2024-11-22 12:58:44,612 - WARNING -  * Debugger is active!
+2024-11-22 12:58:44,612 - INFO -  * Debugger PIN: 136-720-907
+2024-11-22 12:58:44,642 - INFO - Rendering the index page.
+2024-11-22 12:58:44,647 - INFO - 127.0.0.1 - - [22/Nov/2024 12:58:44] "GET / HTTP/1.1" 200 -
+2024-11-22 12:58:44,704 - INFO - 127.0.0.1 - - [22/Nov/2024 12:58:44] "GET /static/css/main.css HTTP/1.1" 200 -
+2024-11-22 12:58:44,705 - INFO - 127.0.0.1 - - [22/Nov/2024 12:58:44] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-22 12:58:45,166 - INFO - 192.168.43.85 - - [22/Nov/2024 12:58:45] "GET /socket.io/?EIO=4&transport=polling&t=PDJlIMf HTTP/1.1" 200 -
+2024-11-22 12:58:45,196 - INFO - 192.168.43.85 - - [22/Nov/2024 12:58:45] "POST /socket.io/?EIO=4&transport=polling&t=PDJlIN1&sid=eVtxlUgt4FLfglAzAAAA HTTP/1.1" 200 -
+2024-11-22 12:58:45,196 - INFO - 192.168.43.85 - - [22/Nov/2024 12:58:45] "GET /socket.io/?EIO=4&transport=polling&t=PDJlIN5&sid=eVtxlUgt4FLfglAzAAAA HTTP/1.1" 200 -
+2024-11-22 12:58:45,277 - ERROR - Cannot identify image file
+2024-11-22 12:58:45,277 - ERROR - Cannot identify image file
+2024-11-22 12:58:45,282 - INFO - 127.0.0.1 - - [22/Nov/2024 12:58:45] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:58:45,304 - ERROR - Cannot identify image file
+2024-11-22 12:58:45,310 - INFO - 127.0.0.1 - - [22/Nov/2024 12:58:45] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:58:45,347 - ERROR - Cannot identify image file
+2024-11-22 12:58:45,351 - INFO - 127.0.0.1 - - [22/Nov/2024 12:58:45] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:58:45,397 - ERROR - Cannot identify image file
+2024-11-22 12:58:45,419 - INFO - 127.0.0.1 - - [22/Nov/2024 12:58:45] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:58:45,437 - ERROR - Cannot identify image file
+2024-11-22 12:58:45,482 - ERROR - Cannot identify image file
+2024-11-22 12:58:45,511 - INFO - 127.0.0.1 - - [22/Nov/2024 12:58:45] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:58:45,532 - ERROR - Cannot identify image file
+2024-11-22 12:58:45,567 - INFO - 127.0.0.1 - - [22/Nov/2024 12:58:45] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:58:45,575 - ERROR - Cannot identify image file
+2024-11-22 12:58:45,594 - INFO - 127.0.0.1 - - [22/Nov/2024 12:58:45] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-22 12:58:45,618 - ERROR - Cannot identify image file
+2024-11-22 12:58:45,642 - INFO - 127.0.0.1 - - [22/Nov/2024 12:58:45] "[33mGET /undefined HTTP/1.1[0m" 404 -

@@ -3,16 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        a {
-            font-size: 30px;
-        }
-    </style>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
 </head>
 <body>
-    <div id="container">
+    <div style="display: none;">
         <canvas id="canvasOutput"></canvas>
-        <video style="display: none;" autoplay="true" id="videoElement"></video>
+        <video autoplay="true" id="videoElement"></video>
     </div>
     <div id="status"></div>
     
