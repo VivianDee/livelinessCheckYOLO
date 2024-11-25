@@ -5,7 +5,14 @@ function onOpenCvReady() {
 }
 
 function main() {
-    var socket = io('http://192.168.43.85:5000');
+    // Dynamically get the server URL and use the same host and protocol
+    var serverUrl = window.location.protocol + '//' + window.location.hostname;
+
+    if (window.location.port) {
+        serverUrl += ':' + window.location.port;
+    }
+
+    var socket = io(serverUrl);
 
     socket.on('connect', function () {
         console.log("Connected...!", socket.connected);
