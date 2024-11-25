@@ -13,7 +13,7 @@ ultralytics
 torch
 torchvision
 torchaudio
-libgl1-mesa-glx
+libglib2.0-0
 
 # Base64 Encoding/Decoding (Python Standard Library, for reference)
 
