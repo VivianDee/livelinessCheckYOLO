@@ -13,14 +13,11 @@ ultralytics
 torch
 torchvision
 torchaudio
-Mediapipe
-Websockets
-Aiortc
 
 # Base64 Encoding/Decoding (Python Standard Library, for reference)
 
 # Logging (Python Standard Library, for reference)
 
 # Asynchronous Support
-eventlet==0.33.3 
+eventlet
 
