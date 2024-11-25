@@ -3194,3 +3194,790 @@ UnboundLocalError: cannot access local variable 'annotated_frame' where it is no
 2024-11-22 12:58:45,594 - INFO - 127.0.0.1 - - [22/Nov/2024 12:58:45] "[33mGET /undefined HTTP/1.1[0m" 404 -
 2024-11-22 12:58:45,618 - ERROR - Cannot identify image file
 2024-11-22 12:58:45,642 - INFO - 127.0.0.1 - - [22/Nov/2024 12:58:45] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-25 15:14:33,016 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.43.85:5000
+2024-11-25 15:14:33,017 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-25 15:14:33,018 - INFO -  * Restarting with stat
+2024-11-25 15:14:41,070 - WARNING -  * Debugger is active!
+2024-11-25 15:14:41,071 - INFO -  * Debugger PIN: 108-715-598
+2024-11-25 15:14:48,075 - INFO - Rendering the index page.
+2024-11-25 15:14:48,106 - INFO - 127.0.0.1 - - [25/Nov/2024 15:14:48] "GET / HTTP/1.1" 200 -
+2024-11-25 15:14:48,223 - INFO - 127.0.0.1 - - [25/Nov/2024 15:14:48] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-11-25 15:14:48,231 - INFO - 127.0.0.1 - - [25/Nov/2024 15:14:48] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-11-25 15:14:51,176 - INFO - 127.0.0.1 - - [25/Nov/2024 15:14:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-25 15:14:51,372 - INFO - 127.0.0.1 - - [25/Nov/2024 15:14:51] "GET /socket.io/?EIO=4&transport=polling&t=PDZhDJd HTTP/1.1" 200 -
+2024-11-25 15:14:51,408 - INFO - 127.0.0.1 - - [25/Nov/2024 15:14:51] "POST /socket.io/?EIO=4&transport=polling&t=PDZhDK7&sid=WAPk71j_7X9gEDp4AAAA HTTP/1.1" 200 -
+2024-11-25 15:14:51,412 - INFO - 127.0.0.1 - - [25/Nov/2024 15:14:51] "GET /socket.io/?EIO=4&transport=polling&t=PDZhDKB&sid=WAPk71j_7X9gEDp4AAAA HTTP/1.1" 200 -
+2024-11-25 15:14:51,458 - INFO - 127.0.0.1 - - [25/Nov/2024 15:14:51] "GET /socket.io/?EIO=4&transport=polling&t=PDZhDKw&sid=WAPk71j_7X9gEDp4AAAA HTTP/1.1" 200 -
+2024-11-25 15:14:51,461 - INFO - 127.0.0.1 - - [25/Nov/2024 15:14:51] "POST /socket.io/?EIO=4&transport=polling&t=PDZhDKx&sid=WAPk71j_7X9gEDp4AAAA HTTP/1.1" 200 -
+2024-11-25 15:14:52,370 - ERROR - Cannot identify image file
+2024-11-25 15:14:52,371 - ERROR - Cannot identify image file
+2024-11-25 15:14:52,372 - ERROR - Cannot identify image file
+2024-11-25 15:14:52,374 - ERROR - Cannot identify image file
+2024-11-25 15:14:52,377 - ERROR - Cannot identify image file
+2024-11-25 15:14:52,379 - ERROR - Cannot identify image file
+2024-11-25 15:14:52,381 - ERROR - Cannot identify image file
+2024-11-25 15:14:52,382 - ERROR - Cannot identify image file
+2024-11-25 15:14:52,383 - ERROR - Cannot identify image file
+2024-11-25 15:14:52,383 - ERROR - Cannot identify image file
+2024-11-25 15:14:52,384 - ERROR - Cannot identify image file
+2024-11-25 15:14:52,385 - ERROR - Cannot identify image file
+2024-11-25 15:14:52,386 - ERROR - Cannot identify image file
+2024-11-25 15:14:52,388 - ERROR - Cannot identify image file
+2024-11-25 15:14:52,389 - ERROR - Cannot identify image file
+2024-11-25 15:14:52,390 - ERROR - Cannot identify image file
+2024-11-25 15:14:52,392 - ERROR - Cannot identify image file
+2024-11-25 15:14:52,393 - ERROR - Cannot identify image file
+2024-11-25 15:14:52,954 - INFO - 127.0.0.1 - - [25/Nov/2024 15:14:52] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-25 15:14:53,024 - INFO - 127.0.0.1 - - [25/Nov/2024 15:14:53] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-25 15:14:53,309 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'convertColor'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 35, in process_image
+    frame = cvzone.convertColor(frame, 'RGB', 'BGR')  # Convert RGB to BGR
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'convertColor'
+2024-11-25 15:14:53,672 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'convertColor'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 35, in process_image
+    frame = cvzone.convertColor(frame, 'RGB', 'BGR')  # Convert RGB to BGR
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'convertColor'
+2024-11-25 15:14:53,974 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'convertColor'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 35, in process_image
+    frame = cvzone.convertColor(frame, 'RGB', 'BGR')  # Convert RGB to BGR
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'convertColor'
+2024-11-25 15:14:54,339 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'convertColor'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 35, in process_image
+    frame = cvzone.convertColor(frame, 'RGB', 'BGR')  # Convert RGB to BGR
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'convertColor'
+2024-11-25 15:14:54,798 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'convertColor'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 35, in process_image
+    frame = cvzone.convertColor(frame, 'RGB', 'BGR')  # Convert RGB to BGR
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'convertColor'
+2024-11-25 15:14:55,153 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'convertColor'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 35, in process_image
+    frame = cvzone.convertColor(frame, 'RGB', 'BGR')  # Convert RGB to BGR
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'convertColor'
+2024-11-25 15:14:55,528 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'convertColor'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 35, in process_image
+    frame = cvzone.convertColor(frame, 'RGB', 'BGR')  # Convert RGB to BGR
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'convertColor'
+2024-11-25 15:14:55,852 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'convertColor'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 35, in process_image
+    frame = cvzone.convertColor(frame, 'RGB', 'BGR')  # Convert RGB to BGR
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'convertColor'
+2024-11-25 15:14:56,320 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'convertColor'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 35, in process_image
+    frame = cvzone.convertColor(frame, 'RGB', 'BGR')  # Convert RGB to BGR
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'convertColor'
+2024-11-25 15:14:56,797 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'convertColor'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 35, in process_image
+    frame = cvzone.convertColor(frame, 'RGB', 'BGR')  # Convert RGB to BGR
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'convertColor'
+2024-11-25 15:14:57,206 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'convertColor'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 35, in process_image
+    frame = cvzone.convertColor(frame, 'RGB', 'BGR')  # Convert RGB to BGR
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'convertColor'
+2024-11-25 15:14:57,566 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'convertColor'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 35, in process_image
+    frame = cvzone.convertColor(frame, 'RGB', 'BGR')  # Convert RGB to BGR
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'convertColor'
+2024-11-25 15:14:57,883 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'convertColor'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 35, in process_image
+    frame = cvzone.convertColor(frame, 'RGB', 'BGR')  # Convert RGB to BGR
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'convertColor'
+2024-11-25 15:14:58,239 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'convertColor'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 35, in process_image
+    frame = cvzone.convertColor(frame, 'RGB', 'BGR')  # Convert RGB to BGR
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'convertColor'
+2024-11-25 15:14:58,678 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'convertColor'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 35, in process_image
+    frame = cvzone.convertColor(frame, 'RGB', 'BGR')  # Convert RGB to BGR
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'convertColor'
+2024-11-25 15:14:59,025 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'convertColor'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 35, in process_image
+    frame = cvzone.convertColor(frame, 'RGB', 'BGR')  # Convert RGB to BGR
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'convertColor'
+2024-11-25 15:14:59,466 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'convertColor'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 35, in process_image
+    frame = cvzone.convertColor(frame, 'RGB', 'BGR')  # Convert RGB to BGR
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'convertColor'
+2024-11-25 15:14:59,851 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'convertColor'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 35, in process_image
+    frame = cvzone.convertColor(frame, 'RGB', 'BGR')  # Convert RGB to BGR
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'convertColor'
+2024-11-25 15:15:00,152 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'convertColor'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 35, in process_image
+    frame = cvzone.convertColor(frame, 'RGB', 'BGR')  # Convert RGB to BGR
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'convertColor'
+2024-11-25 15:15:00,491 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'convertColor'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 35, in process_image
+    frame = cvzone.convertColor(frame, 'RGB', 'BGR')  # Convert RGB to BGR
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'convertColor'
+2024-11-25 15:15:00,860 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'convertColor'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 35, in process_image
+    frame = cvzone.convertColor(frame, 'RGB', 'BGR')  # Convert RGB to BGR
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'convertColor'
+2024-11-25 15:15:01,167 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'convertColor'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 35, in process_image
+    frame = cvzone.convertColor(frame, 'RGB', 'BGR')  # Convert RGB to BGR
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'convertColor'
+2024-11-25 15:15:01,528 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'convertColor'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 35, in process_image
+    frame = cvzone.convertColor(frame, 'RGB', 'BGR')  # Convert RGB to BGR
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'convertColor'
+2024-11-25 15:15:01,926 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'convertColor'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 35, in process_image
+    frame = cvzone.convertColor(frame, 'RGB', 'BGR')  # Convert RGB to BGR
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'convertColor'
+2024-11-25 15:15:02,387 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'convertColor'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 35, in process_image
+    frame = cvzone.convertColor(frame, 'RGB', 'BGR')  # Convert RGB to BGR
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'convertColor'
+2024-11-25 15:15:02,776 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'convertColor'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 35, in process_image
+    frame = cvzone.convertColor(frame, 'RGB', 'BGR')  # Convert RGB to BGR
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'convertColor'
+2024-11-25 15:15:03,154 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'convertColor'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 35, in process_image
+    frame = cvzone.convertColor(frame, 'RGB', 'BGR')  # Convert RGB to BGR
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'convertColor'
+2024-11-25 15:15:03,540 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'convertColor'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 35, in process_image
+    frame = cvzone.convertColor(frame, 'RGB', 'BGR')  # Convert RGB to BGR
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'convertColor'
+2024-11-25 15:15:03,977 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'convertColor'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 35, in process_image
+    frame = cvzone.convertColor(frame, 'RGB', 'BGR')  # Convert RGB to BGR
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'convertColor'
+2024-11-25 15:15:04,401 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'convertColor'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 35, in process_image
+    frame = cvzone.convertColor(frame, 'RGB', 'BGR')  # Convert RGB to BGR
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'convertColor'
+2024-11-25 15:15:04,839 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'convertColor'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 35, in process_image
+    frame = cvzone.convertColor(frame, 'RGB', 'BGR')  # Convert RGB to BGR
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'convertColor'
+2024-11-25 15:15:05,244 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'convertColor'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 35, in process_image
+    frame = cvzone.convertColor(frame, 'RGB', 'BGR')  # Convert RGB to BGR
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'convertColor'
+2024-11-25 15:15:05,689 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'convertColor'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 35, in process_image
+    frame = cvzone.convertColor(frame, 'RGB', 'BGR')  # Convert RGB to BGR
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'convertColor'
+2024-11-25 15:15:06,113 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'convertColor'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 35, in process_image
+    frame = cvzone.convertColor(frame, 'RGB', 'BGR')  # Convert RGB to BGR
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'convertColor'
+2024-11-25 15:15:06,514 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'convertColor'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 35, in process_image
+    frame = cvzone.convertColor(frame, 'RGB', 'BGR')  # Convert RGB to BGR
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'convertColor'
+2024-11-25 15:15:06,913 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'convertColor'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 35, in process_image
+    frame = cvzone.convertColor(frame, 'RGB', 'BGR')  # Convert RGB to BGR
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'convertColor'
+2024-11-25 15:15:07,346 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'convertColor'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 35, in process_image
+    frame = cvzone.convertColor(frame, 'RGB', 'BGR')  # Convert RGB to BGR
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'convertColor'
+2024-11-25 15:15:07,679 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'convertColor'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 35, in process_image
+    frame = cvzone.convertColor(frame, 'RGB', 'BGR')  # Convert RGB to BGR
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'convertColor'
+2024-11-25 15:15:08,100 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'convertColor'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 35, in process_image
+    frame = cvzone.convertColor(frame, 'RGB', 'BGR')  # Convert RGB to BGR
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'convertColor'
+2024-11-25 15:15:08,451 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'convertColor'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 35, in process_image
+    frame = cvzone.convertColor(frame, 'RGB', 'BGR')  # Convert RGB to BGR
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'convertColor'
+2024-11-25 15:15:08,833 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'convertColor'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 35, in process_image
+    frame = cvzone.convertColor(frame, 'RGB', 'BGR')  # Convert RGB to BGR
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'convertColor'
+2024-11-25 15:15:09,168 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'convertColor'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 35, in process_image
+    frame = cvzone.convertColor(frame, 'RGB', 'BGR')  # Convert RGB to BGR
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'convertColor'
+2024-11-25 15:15:09,618 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'convertColor'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 35, in process_image
+    frame = cvzone.convertColor(frame, 'RGB', 'BGR')  # Convert RGB to BGR
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'convertColor'
+2024-11-25 15:15:10,036 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'convertColor'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 35, in process_image
+    frame = cvzone.convertColor(frame, 'RGB', 'BGR')  # Convert RGB to BGR
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'convertColor'
+2024-11-25 15:15:10,524 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'convertColor'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 35, in process_image
+    frame = cvzone.convertColor(frame, 'RGB', 'BGR')  # Convert RGB to BGR
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'convertColor'
+2024-11-25 15:15:10,974 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'convertColor'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 35, in process_image
+    frame = cvzone.convertColor(frame, 'RGB', 'BGR')  # Convert RGB to BGR
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'convertColor'
+2024-11-25 15:15:11,393 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'convertColor'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 35, in process_image
+    frame = cvzone.convertColor(frame, 'RGB', 'BGR')  # Convert RGB to BGR
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'convertColor'
+2024-11-25 15:15:11,586 - INFO - 127.0.0.1 - - [25/Nov/2024 15:15:11] "GET /socket.io/?EIO=4&transport=websocket&sid=WAPk71j_7X9gEDp4AAAA HTTP/1.1" 200 -
+2024-11-25 15:18:42,206 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.43.85:5000
+2024-11-25 15:18:42,207 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-25 15:18:42,207 - INFO -  * Restarting with stat
+2024-11-25 15:18:48,532 - WARNING -  * Debugger is active!
+2024-11-25 15:18:48,532 - INFO -  * Debugger PIN: 108-715-598
+2024-11-25 15:18:48,569 - INFO - Rendering the index page.
+2024-11-25 15:18:48,575 - INFO - 127.0.0.1 - - [25/Nov/2024 15:18:48] "GET / HTTP/1.1" 200 -
+2024-11-25 15:18:48,648 - INFO - 127.0.0.1 - - [25/Nov/2024 15:18:48] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-11-25 15:18:48,652 - INFO - 127.0.0.1 - - [25/Nov/2024 15:18:48] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-25 15:18:49,290 - INFO - 127.0.0.1 - - [25/Nov/2024 15:18:49] "GET /socket.io/?EIO=4&transport=polling&t=PDZi7P4 HTTP/1.1" 200 -
+2024-11-25 15:18:49,334 - INFO - 127.0.0.1 - - [25/Nov/2024 15:18:49] "POST /socket.io/?EIO=4&transport=polling&t=PDZi7Pj&sid=0EZg3XtFn96VPi2tAAAA HTTP/1.1" 200 -
+2024-11-25 15:18:49,343 - INFO - 127.0.0.1 - - [25/Nov/2024 15:18:49] "GET /socket.io/?EIO=4&transport=polling&t=PDZi7Pl&sid=0EZg3XtFn96VPi2tAAAA HTTP/1.1" 200 -
+2024-11-25 15:18:49,435 - ERROR - Cannot identify image file
+2024-11-25 15:18:49,435 - ERROR - Cannot identify image file
+2024-11-25 15:18:49,436 - ERROR - Cannot identify image file
+2024-11-25 15:18:49,441 - INFO - 127.0.0.1 - - [25/Nov/2024 15:18:49] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-25 15:18:49,471 - ERROR - Cannot identify image file
+2024-11-25 15:18:49,476 - INFO - 127.0.0.1 - - [25/Nov/2024 15:18:49] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-25 15:18:49,516 - ERROR - Cannot identify image file
+2024-11-25 15:18:49,522 - INFO - 127.0.0.1 - - [25/Nov/2024 15:18:49] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-25 15:18:49,557 - ERROR - Cannot identify image file
+2024-11-25 15:18:49,564 - INFO - 127.0.0.1 - - [25/Nov/2024 15:18:49] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-25 15:18:49,602 - ERROR - Cannot identify image file
+2024-11-25 15:18:49,607 - INFO - 127.0.0.1 - - [25/Nov/2024 15:18:49] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-25 15:18:49,649 - ERROR - Cannot identify image file
+2024-11-25 15:18:49,653 - INFO - 127.0.0.1 - - [25/Nov/2024 15:18:49] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-25 15:18:49,694 - ERROR - Cannot identify image file
+2024-11-25 15:18:49,702 - INFO - 127.0.0.1 - - [25/Nov/2024 15:18:49] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-25 15:18:49,739 - ERROR - Cannot identify image file
+2024-11-25 15:18:49,748 - INFO - 127.0.0.1 - - [25/Nov/2024 15:18:49] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-25 15:18:50,187 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'encodeImage'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 48, in process_image
+    _, img_encoded = cvzone.encodeImage(annotated_frame, '.jpg')
+                     ^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'encodeImage'
+2024-11-25 15:18:50,535 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'encodeImage'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 48, in process_image
+    _, img_encoded = cvzone.encodeImage(annotated_frame, '.jpg')
+                     ^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'encodeImage'
+2024-11-25 15:18:50,854 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'encodeImage'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 48, in process_image
+    _, img_encoded = cvzone.encodeImage(annotated_frame, '.jpg')
+                     ^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'encodeImage'
+2024-11-25 15:18:51,222 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'encodeImage'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 48, in process_image
+    _, img_encoded = cvzone.encodeImage(annotated_frame, '.jpg')
+                     ^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'encodeImage'
+2024-11-25 15:18:52,188 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'encodeImage'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 48, in process_image
+    _, img_encoded = cvzone.encodeImage(annotated_frame, '.jpg')
+                     ^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'encodeImage'
+2024-11-25 15:18:52,749 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'encodeImage'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 48, in process_image
+    _, img_encoded = cvzone.encodeImage(annotated_frame, '.jpg')
+                     ^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'encodeImage'
+2024-11-25 15:18:53,209 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'encodeImage'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 48, in process_image
+    _, img_encoded = cvzone.encodeImage(annotated_frame, '.jpg')
+                     ^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'encodeImage'
+2024-11-25 15:18:54,177 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'encodeImage'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 48, in process_image
+    _, img_encoded = cvzone.encodeImage(annotated_frame, '.jpg')
+                     ^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'encodeImage'
+2024-11-25 15:18:54,832 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'encodeImage'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 48, in process_image
+    _, img_encoded = cvzone.encodeImage(annotated_frame, '.jpg')
+                     ^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'encodeImage'
+2024-11-25 15:18:55,125 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'encodeImage'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 48, in process_image
+    _, img_encoded = cvzone.encodeImage(annotated_frame, '.jpg')
+                     ^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'encodeImage'
+2024-11-25 15:18:55,522 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'encodeImage'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 48, in process_image
+    _, img_encoded = cvzone.encodeImage(annotated_frame, '.jpg')
+                     ^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'encodeImage'
+2024-11-25 15:18:55,835 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'encodeImage'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 48, in process_image
+    _, img_encoded = cvzone.encodeImage(annotated_frame, '.jpg')
+                     ^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'encodeImage'
+2024-11-25 15:18:56,752 - INFO - 127.0.0.1 - - [25/Nov/2024 15:18:56] "GET /socket.io/?EIO=4&transport=websocket&sid=0EZg3XtFn96VPi2tAAAA HTTP/1.1" 200 -
+2024-11-25 15:18:58,297 - ERROR - An error occurred during image processing: Given groups=1, weight of size [64, 3, 3, 3], expected input[1, 4, 480, 640] to have 3 channels, but got 4 channels instead
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 45, in process_image
+    annotated_frame = annotate_frame(frame, results)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flutterfinn/Antispoofing/app/blueprints/helpers.py", line 7, in annotate_frame
+    for result in results:
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 36, in generator_context
+    response = gen.send(None)
+               ^^^^^^^^^^^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/ultralytics/engine/predictor.py", line 255, in stream_inference
+    preds = self.inference(im, *args, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/ultralytics/engine/predictor.py", line 143, in inference
+    return self.model(im, augment=self.args.augment, visualize=visualize, embed=self.args.embed, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/ultralytics/nn/autobackend.py", line 526, in forward
+    y = self.model(im, augment=augment, visualize=visualize, embed=embed)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/ultralytics/nn/tasks.py", line 112, in forward
+    return self.predict(x, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/ultralytics/nn/tasks.py", line 130, in predict
+    return self._predict_once(x, profile, visualize, embed)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/ultralytics/nn/tasks.py", line 151, in _predict_once
+    x = m(x)  # run
+        ^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/ultralytics/nn/modules/conv.py", line 54, in forward_fuse
+    return self.act(self.conv(x))
+                    ^^^^^^^^^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/torch/nn/modules/conv.py", line 554, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/torch/nn/modules/conv.py", line 549, in _conv_forward
+    return F.conv2d(
+           ^^^^^^^^^
+RuntimeError: Given groups=1, weight of size [64, 3, 3, 3], expected input[1, 4, 480, 640] to have 3 channels, but got 4 channels instead
+2024-11-25 15:18:58,319 - ERROR - An error occurred during image processing: Given groups=1, weight of size [64, 3, 3, 3], expected input[1, 4, 480, 640] to have 3 channels, but got 4 channels instead
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 45, in process_image
+    annotated_frame = annotate_frame(frame, results)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flutterfinn/Antispoofing/app/blueprints/helpers.py", line 7, in annotate_frame
+    for result in results:
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 36, in generator_context
+    response = gen.send(None)
+               ^^^^^^^^^^^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/ultralytics/engine/predictor.py", line 255, in stream_inference
+    preds = self.inference(im, *args, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/ultralytics/engine/predictor.py", line 143, in inference
+    return self.model(im, augment=self.args.augment, visualize=visualize, embed=self.args.embed, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/ultralytics/nn/autobackend.py", line 526, in forward
+    y = self.model(im, augment=augment, visualize=visualize, embed=embed)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/ultralytics/nn/tasks.py", line 112, in forward
+    return self.predict(x, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/ultralytics/nn/tasks.py", line 130, in predict
+    return self._predict_once(x, profile, visualize, embed)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/ultralytics/nn/tasks.py", line 151, in _predict_once
+    x = m(x)  # run
+        ^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/ultralytics/nn/modules/conv.py", line 54, in forward_fuse
+    return self.act(self.conv(x))
+                    ^^^^^^^^^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/torch/nn/modules/conv.py", line 554, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/torch/nn/modules/conv.py", line 549, in _conv_forward
+    return F.conv2d(
+           ^^^^^^^^^
+RuntimeError: Given groups=1, weight of size [64, 3, 3, 3], expected input[1, 4, 480, 640] to have 3 channels, but got 4 channels instead
+2024-11-25 15:18:58,377 - ERROR - An error occurred during image processing: Given groups=1, weight of size [64, 3, 3, 3], expected input[1, 4, 480, 640] to have 3 channels, but got 4 channels instead
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 45, in process_image
+    annotated_frame = annotate_frame(frame, results)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flutterfinn/Antispoofing/app/blueprints/helpers.py", line 7, in annotate_frame
+    for result in results:
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 36, in generator_context
+    response = gen.send(None)
+               ^^^^^^^^^^^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/ultralytics/engine/predictor.py", line 255, in stream_inference
+    preds = self.inference(im, *args, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/ultralytics/engine/predictor.py", line 143, in inference
+    return self.model(im, augment=self.args.augment, visualize=visualize, embed=self.args.embed, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/ultralytics/nn/autobackend.py", line 526, in forward
+    y = self.model(im, augment=augment, visualize=visualize, embed=embed)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/ultralytics/nn/tasks.py", line 112, in forward
+    return self.predict(x, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/ultralytics/nn/tasks.py", line 130, in predict
+    return self._predict_once(x, profile, visualize, embed)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/ultralytics/nn/tasks.py", line 151, in _predict_once
+    x = m(x)  # run
+        ^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/ultralytics/nn/modules/conv.py", line 54, in forward_fuse
+    return self.act(self.conv(x))
+                    ^^^^^^^^^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/torch/nn/modules/conv.py", line 554, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/torch/nn/modules/conv.py", line 549, in _conv_forward
+    return F.conv2d(
+           ^^^^^^^^^
+RuntimeError: Given groups=1, weight of size [64, 3, 3, 3], expected input[1, 4, 480, 640] to have 3 channels, but got 4 channels instead
+2024-11-25 15:22:01,402 - INFO -  * Detected change in '/home/flutterfinn/Antispoofing/app/blueprints/services.py', reloading
+2024-11-25 15:22:02,584 - INFO -  * Restarting with stat
+2024-11-25 15:22:08,928 - WARNING -  * Debugger is active!
+2024-11-25 15:22:08,928 - INFO -  * Debugger PIN: 108-715-598
+2024-11-25 15:22:11,047 - INFO -  * Detected change in '/home/flutterfinn/Antispoofing/app/blueprints/services.py', reloading
+2024-11-25 15:22:12,113 - INFO -  * Restarting with stat
+2024-11-25 15:22:18,984 - WARNING -  * Debugger is active!
+2024-11-25 15:22:18,985 - INFO -  * Debugger PIN: 108-715-598
+2024-11-25 15:22:31,409 - INFO -  * Detected change in '/home/flutterfinn/Antispoofing/app/blueprints/services.py', reloading
+2024-11-25 15:22:32,762 - INFO -  * Restarting with stat
+2024-11-25 15:22:38,877 - WARNING -  * Debugger is active!
+2024-11-25 15:22:38,877 - INFO -  * Debugger PIN: 108-715-598
+2024-11-25 15:23:54,496 - INFO -  * Detected change in '/home/flutterfinn/Antispoofing/app/blueprints/services.py', reloading
+2024-11-25 15:23:55,234 - INFO -  * Restarting with stat
+2024-11-25 15:24:02,252 - WARNING -  * Debugger is active!
+2024-11-25 15:24:02,253 - INFO -  * Debugger PIN: 108-715-598
+2024-11-25 15:24:14,173 - INFO - Rendering the index page.
+2024-11-25 15:24:14,189 - INFO - 127.0.0.1 - - [25/Nov/2024 15:24:14] "GET / HTTP/1.1" 200 -
+2024-11-25 15:24:14,304 - INFO - 127.0.0.1 - - [25/Nov/2024 15:24:14] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-25 15:24:14,305 - INFO - 127.0.0.1 - - [25/Nov/2024 15:24:14] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-11-25 15:24:14,939 - INFO - 127.0.0.1 - - [25/Nov/2024 15:24:14] "GET /socket.io/?EIO=4&transport=polling&t=PDZjMvG HTTP/1.1" 200 -
+2024-11-25 15:24:14,980 - INFO - 127.0.0.1 - - [25/Nov/2024 15:24:14] "POST /socket.io/?EIO=4&transport=polling&t=PDZjMvv&sid=igEeXXeSD8AgJzvDAAAA HTTP/1.1" 200 -
+2024-11-25 15:24:14,984 - INFO - 127.0.0.1 - - [25/Nov/2024 15:24:14] "GET /socket.io/?EIO=4&transport=polling&t=PDZjMvz&sid=igEeXXeSD8AgJzvDAAAA HTTP/1.1" 200 -
+2024-11-25 15:24:15,075 - ERROR - Cannot identify image file
+2024-11-25 15:24:15,076 - ERROR - Cannot identify image file
+2024-11-25 15:24:15,076 - ERROR - Cannot identify image file
+2024-11-25 15:24:15,081 - INFO - 127.0.0.1 - - [25/Nov/2024 15:24:15] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-25 15:24:15,113 - ERROR - Cannot identify image file
+2024-11-25 15:24:15,116 - INFO - 127.0.0.1 - - [25/Nov/2024 15:24:15] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-25 15:24:15,160 - ERROR - Cannot identify image file
+2024-11-25 15:24:15,164 - INFO - 127.0.0.1 - - [25/Nov/2024 15:24:15] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-25 15:24:15,202 - ERROR - Cannot identify image file
+2024-11-25 15:24:15,207 - INFO - 127.0.0.1 - - [25/Nov/2024 15:24:15] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-25 15:24:15,247 - ERROR - Cannot identify image file
+2024-11-25 15:24:15,256 - INFO - 127.0.0.1 - - [25/Nov/2024 15:24:15] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-25 15:24:15,292 - ERROR - Cannot identify image file
+2024-11-25 15:24:15,297 - INFO - 127.0.0.1 - - [25/Nov/2024 15:24:15] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-25 15:24:15,337 - ERROR - Cannot identify image file
+2024-11-25 15:24:15,342 - INFO - 127.0.0.1 - - [25/Nov/2024 15:24:15] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-25 15:24:15,382 - ERROR - Cannot identify image file
+2024-11-25 15:24:15,389 - INFO - 127.0.0.1 - - [25/Nov/2024 15:24:15] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-25 15:24:15,833 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'encodeImage'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 55, in process_image
+    _, img_encoded = cvzone.encodeImage(annotated_frame, '.jpg')
+                     ^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'encodeImage'
+2024-11-25 15:24:16,184 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'encodeImage'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 55, in process_image
+    _, img_encoded = cvzone.encodeImage(annotated_frame, '.jpg')
+                     ^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'encodeImage'
+2024-11-25 15:24:16,501 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'encodeImage'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 55, in process_image
+    _, img_encoded = cvzone.encodeImage(annotated_frame, '.jpg')
+                     ^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'encodeImage'
+2024-11-25 15:24:16,883 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'encodeImage'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 55, in process_image
+    _, img_encoded = cvzone.encodeImage(annotated_frame, '.jpg')
+                     ^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'encodeImage'
+2024-11-25 15:24:17,787 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'encodeImage'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 55, in process_image
+    _, img_encoded = cvzone.encodeImage(annotated_frame, '.jpg')
+                     ^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'encodeImage'
+2024-11-25 15:24:18,195 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'encodeImage'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 55, in process_image
+    _, img_encoded = cvzone.encodeImage(annotated_frame, '.jpg')
+                     ^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'encodeImage'
+2024-11-25 15:24:18,581 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'encodeImage'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 55, in process_image
+    _, img_encoded = cvzone.encodeImage(annotated_frame, '.jpg')
+                     ^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'encodeImage'
+2024-11-25 15:24:19,044 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'encodeImage'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 55, in process_image
+    _, img_encoded = cvzone.encodeImage(annotated_frame, '.jpg')
+                     ^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'encodeImage'
+2024-11-25 15:24:19,890 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'encodeImage'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 55, in process_image
+    _, img_encoded = cvzone.encodeImage(annotated_frame, '.jpg')
+                     ^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'encodeImage'
+2024-11-25 15:24:20,459 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'encodeImage'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 55, in process_image
+    _, img_encoded = cvzone.encodeImage(annotated_frame, '.jpg')
+                     ^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'encodeImage'
+2024-11-25 15:24:20,826 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'encodeImage'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 55, in process_image
+    _, img_encoded = cvzone.encodeImage(annotated_frame, '.jpg')
+                     ^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'encodeImage'
+2024-11-25 15:24:21,255 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'encodeImage'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 55, in process_image
+    _, img_encoded = cvzone.encodeImage(annotated_frame, '.jpg')
+                     ^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'encodeImage'
+2024-11-25 15:24:21,296 - INFO - 127.0.0.1 - - [25/Nov/2024 15:24:21] "GET /socket.io/?EIO=4&transport=websocket&sid=igEeXXeSD8AgJzvDAAAA HTTP/1.1" 200 -
+2024-11-25 15:24:23,919 - ERROR - An error occurred during image processing: module 'cvzone' has no attribute 'encodeImage'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 55, in process_image
+    _, img_encoded = cvzone.encodeImage(annotated_frame, '.jpg')
+                     ^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cvzone' has no attribute 'encodeImage'
+2024-11-25 15:24:26,562 - ERROR - An error occurred during image processing: OpenCV(4.10.0) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Layout of the output array img is incompatible with cv::Mat
+>  - Expected Ptr<cv::UMat> for argument 'img'
+>  - Layout of the output array img is incompatible with cv::Mat
+>  - Expected Ptr<cv::UMat> for argument 'img'
+Traceback (most recent call last):
+  File "/home/flutterfinn/Antispoofing/app/blueprints/services.py", line 52, in process_image
+    annotated_frame = annotate_frame(frame, results)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flutterfinn/Antispoofing/app/blueprints/helpers.py", line 14, in annotate_frame
+    cvzone.cornerRect(frame, (x1, y1, x2 - x1, y2 - y1), colorC=color)
+  File "/home/flutterfinn/livelinessCheckEnv/lib/python3.12/site-packages/cvzone/Utils.py", line 69, in cornerRect
+    cv2.rectangle(img, bbox, colorR, rt)
+cv2.error: OpenCV(4.10.0) :-1: error: (-5:Bad argument) in function 'rectangle'
+> Overload resolution failed:
+>  - Layout of the output array img is incompatible with cv::Mat
+>  - Expected Ptr<cv::UMat> for argument 'img'
+>  - Layout of the output array img is incompatible with cv::Mat
+>  - Expected Ptr<cv::UMat> for argument 'img'
+
+2024-11-25 15:32:04,769 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.43.85:5000
+2024-11-25 15:32:04,769 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-25 15:32:04,770 - INFO -  * Restarting with stat
+2024-11-25 15:32:14,874 - WARNING -  * Debugger is active!
+2024-11-25 15:32:14,876 - INFO -  * Debugger PIN: 108-715-598
+2024-11-25 15:32:14,921 - INFO - Rendering the index page.
+2024-11-25 15:32:14,928 - INFO - 127.0.0.1 - - [25/Nov/2024 15:32:14] "GET / HTTP/1.1" 200 -
+2024-11-25 15:32:15,026 - INFO - 127.0.0.1 - - [25/Nov/2024 15:32:15] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-11-25 15:32:15,033 - INFO - 127.0.0.1 - - [25/Nov/2024 15:32:15] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-25 15:32:15,537 - INFO - 127.0.0.1 - - [25/Nov/2024 15:32:15] "GET /socket.io/?EIO=4&transport=polling&t=PDZlCEh HTTP/1.1" 200 -
+2024-11-25 15:32:15,590 - INFO - 127.0.0.1 - - [25/Nov/2024 15:32:15] "POST /socket.io/?EIO=4&transport=polling&t=PDZlCFG&sid=hVsShFrqIWdKRPNLAAAA HTTP/1.1" 200 -
+2024-11-25 15:32:15,593 - INFO - 127.0.0.1 - - [25/Nov/2024 15:32:15] "GET /socket.io/?EIO=4&transport=polling&t=PDZlCFI&sid=hVsShFrqIWdKRPNLAAAA HTTP/1.1" 200 -
+2024-11-25 15:32:15,710 - ERROR - Cannot identify image file
+2024-11-25 15:32:15,710 - ERROR - Cannot identify image file
+2024-11-25 15:32:15,711 - ERROR - Cannot identify image file
+2024-11-25 15:32:15,716 - ERROR - Cannot identify image file
+2024-11-25 15:32:15,719 - INFO - 127.0.0.1 - - [25/Nov/2024 15:32:15] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-25 15:32:15,762 - ERROR - Cannot identify image file
+2024-11-25 15:32:15,764 - INFO - 127.0.0.1 - - [25/Nov/2024 15:32:15] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-25 15:32:15,805 - ERROR - Cannot identify image file
+2024-11-25 15:32:15,816 - INFO - 127.0.0.1 - - [25/Nov/2024 15:32:15] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-25 15:32:15,853 - ERROR - Cannot identify image file
+2024-11-25 15:32:15,890 - INFO - 127.0.0.1 - - [25/Nov/2024 15:32:15] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-25 15:32:15,930 - ERROR - Cannot identify image file
+2024-11-25 15:32:15,966 - ERROR - Cannot identify image file
+2024-11-25 15:32:15,995 - INFO - 127.0.0.1 - - [25/Nov/2024 15:32:15] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-25 15:32:16,001 - ERROR - Cannot identify image file
+2024-11-25 15:32:16,034 - ERROR - Cannot identify image file
+2024-11-25 15:32:16,074 - INFO - 127.0.0.1 - - [25/Nov/2024 15:32:16] "[33mGET /undefined HTTP/1.1[0m" 404 -
+2024-11-25 15:32:29,280 - INFO - 127.0.0.1 - - [25/Nov/2024 15:32:29] "GET /socket.io/?EIO=4&transport=websocket&sid=hVsShFrqIWdKRPNLAAAA HTTP/1.1" 200 -

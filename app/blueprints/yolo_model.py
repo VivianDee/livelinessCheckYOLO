@@ -5,4 +5,4 @@ class YOLOModel:
 
     @staticmethod
     def detect(frame):
-        return YOLOModel.model(frame, stream=True, verbose=True)
+        return YOLOModel.model(frame, stream=True)
