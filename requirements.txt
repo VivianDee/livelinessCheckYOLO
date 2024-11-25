@@ -13,7 +13,9 @@ ultralytics
 torch
 torchvision
 torchaudio
-libglib2.0-0
+Mediapipe
+Websockets
+Aiortc
 
 # Base64 Encoding/Decoding (Python Standard Library, for reference)
 
